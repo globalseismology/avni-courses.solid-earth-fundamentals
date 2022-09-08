@@ -59,6 +59,9 @@ coverage.xml
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Our own notebooks so that students do not have merge conflicts
+*.ipynb
+
 # pyenv
 .python-version
 
