@@ -74,7 +74,7 @@ venv/
 ENV/
 
 
-#matlab
+#matlab and other data files
 *.mat
 *.epix
 *.csph
@@ -82,6 +82,7 @@ ENV/
 *.eps
 *.png
 *.pdf
+*.grd
 
 # MacOS files
 .DS_Store
