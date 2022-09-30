@@ -80,6 +80,8 @@ ENV/
 *.csph
 *.m~
 *.eps
+*.jpg
+*.jpeg
 *.png
 *.pdf
 *.grd
