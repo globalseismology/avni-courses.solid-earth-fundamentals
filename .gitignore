@@ -84,6 +84,7 @@ ENV/
 *.jpeg
 *.png
 *.pdf
+*.csv
 *.grd
 
 # MacOS files
