@@ -6,11 +6,11 @@ sets of packages. Please feel free to update these files or create new ones that
 for specific applications.
 * `environment_base.yml` — Base version that was provided by Princeton research computing as the default GEO203 environment 
 on Jupyter for Classes servers on Adroit. Excludes several modules necessary for the course.
-* `environment_fall2022.yml` — The working version for the Fall 2022 semester. Includes cv2 through pip as a way to install it with conda
-was not found.
+* `environment_fall2022.yml` — The working version for the Fall 2022 semester. Includes the OpenCV image processing module (`cv2`)
+through pip as a way to install it with conda was not found.
 
 Jupyter Notebooks
 ================
 
 We can individually register each environment you want to show in your kernels list. If you have many environments this might be preferable because it allows you to register and un-register your environment kernels which could help keep that list tidy. ipykernel module is needed to see the
-environment options listed on the right of Jupyter notebooks.
+environment options listed on the right of Jupyter notebooks. See [select_Jupyter_kernel.png](../../select_Jupyter_kernel.png) on how to select a kernel environment like `fall2022`.
