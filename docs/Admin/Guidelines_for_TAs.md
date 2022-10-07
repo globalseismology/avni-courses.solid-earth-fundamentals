@@ -59,23 +59,25 @@ work across purposes and can revert back to a stable version of a (set of) files
 and add suffixes *_pmoulik* and *_Princeton* to the folders. During Precepts, only work with the *_Princeton* folder to be in sync with the students.
 
 The pipeline for precepts and field guides wil include the following general steps:
+
 1. Convert all doc files, if any, to Markdown in a Jupyter notebook. 
+
 2. Add images and data and display any within the notebook (refer the [Markdown cheatsheet](../PS_0_Setup/00_Markdown/Markdown_Cheat_Sheet.png))
+
 3. After finalizing the precept in folder 2, we push the changes downstream to folder 3 before the precept starts on Thursdays.
 
-The typical Github workflow follows only a few sets of commands. Whenever you start working on a problem set on a given workday, first pull the changes that others might
-have pushed to Github by typing:
-
-`git pull origin`
-
-First check that you are in the right branch (`devel`) by typing:
+The typical Github workflow follows only a few commands. Whenever you start working on a problem set on a given workday, first check that you are in the right branch (`devel`) of the repository by typing:
 
 `git branch`
 
-If this specified any branch other than `devel` as your current working branch (i.e. displays a star (`*`) or text in green), change your working
+If this highlights any branch other than `devel` as your current working branch (i.e. displays a star (`*`) or text in green), change your working
 branch by typing:
 
 `git checkout devel`
+
+Next pull the changes that others might have pushed to Github while you were away:
+
+`git pull origin`
 
 Next, look at the status of your files relative to those online, and add files if you have created/modified files for your precept:
 
@@ -84,10 +86,10 @@ git status
 git add -f filename.png
 ```
 
-Please note that the [.gitignore](../../.gitignore) file specified a *very long* list of files and extensions that are meant to be ignored while checking for changes
+Please note that the [.gitignore](../../.gitignore) file specifies a *very long* list of files/extensions that are meant to be ignored while checking for local changes
 to the repository. This is done to make sure whatever changes students make on their end do not cause conflicts with our *persistent* files in the folder 3 [above](#folders).
-However, this also means that you have to add the `-f` flag when adding files that you want to force push to Github. The best way to check if you have gotten
-the desired result is by checking the list of files under your precept folder on [our working Github repository](https://github.com/pmoulik/GEO203_Fall2022_PSETS/tree/devel).
+However, this also means that you have to add the `-f` flag when adding files that you want to force push to the remote Github online repository. The best way to check if you have gotten
+the desired result is by checking the list of files under your precept folder (e.g. `PS_1_*`) on [our working Github repository](https://github.com/pmoulik/GEO203_Fall2022_PSETS/tree/devel).
 
 Keep checking `git status` until you get the desired list of files to be pushed online. Then, commit this change, add a comment and push to the Github repository:
 
@@ -109,7 +111,7 @@ duplicate the notebook and put the suffix *-PUID.ipynb* where *PUID* is their Pr
 Ask students to answer questions (To Do's) by filling cells within Jupyter notebooks with (Markdown) text or (Python) code answers. 
 Make them run the whole notebook on Adroit and upload the output as pdf on Gradescope (See [Start End Session](Start_End_Session.png)).
 
-Please note that this will require that we move all course content on our end to Jupyter Notebooks and Markdown text. 
+Please note that this procedure will require that we move all course content on our end to Jupyter Notebooks and Markdown text. 
 No Microsoft doc files will be created unless it is absolutely required to fulfill a very specific purpose.
 
 Editing on Github
