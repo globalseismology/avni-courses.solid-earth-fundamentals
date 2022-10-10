@@ -12,6 +12,7 @@ Table of Contents
 
   1. [Pedagogy](#pedagogy)
     * [Layout of responsibilities](#layout-of-responsibilities)
+    * [Grading and Honor Code](#grading-and-honor-code)
     * [Folders](#folders)
     * [Workflow](#workflow)
     * [Editing on Github](#editing-on-github)
@@ -33,8 +34,17 @@ Layout of responsibilities
 
 All staff will coordinate with the instructor before posting content on Canvas. The TA's are responsible for running the precepts, preparing the related problem sheet in Jupyter 
 Notebook in consultation with the instructor using the resources available from the Geosciences lab manager (e.g. samples, microscope) and other divisions at Princeton. The TA's are expected to assimilate information from various sources when preparing the final Jupyter Notebook. This includes but is not limited to revising questions based on the feedback and training provided to them. No major content development is expected from the TA's but working professionally to deliver a final product under the supervision of the instructor is. Professional and respectful conduct also includes being pro-active about grading on time and helping the lab manager setup the precept room whenever applicable.
-They are also responsible or preparing a key for their problem set (i.e. suffix *-Key.ipynb*), and creating a grading rubric that informs the marking scheme on Gradescope. TA's are expected to answering questions
+TA's are expected to answering questions
 from students during office hours or at other times by appointment, if available.
+
+Grading and Honor Code
+-------
+
+The TA's are  responsible or preparing a key for their problem set (i.e. suffix *-Key.ipynb*), and creating a grading rubric that informs the marking scheme on Gradescope. The grading should be done in a fair and consistent fashion. **Please feel free to grade but do not publish scores on Canvas without coordinating with the lab manager *and* the instructor**. With students, only discuss the broad themes of what was expected when discussing their scores on graded content and refrain from making comments about the fairness of the evaluation. If they have additional issues and want their answer re-evaluated for (partial or full) credit, they should request this in writing (i.e. by e-mailing the instructor).
+
+If similar mistakes or responses are found between/across various submissions, the grader must make a list of the students involved and **inform the instructor immediately**. Students at Princeton must follow the *honor code* specified in the links below and exam time are not proctored, but with great power, comes great responsibility. **Please do not confront the student(s) about suspected violations**. Better that students learn the lessons of integrity when the stakes are smaller, so no infraction is too small to not be reported to the instructor ! 
+
+More guidance on the *honor code* can be found in the University’s [Rights, Rules, and Responsibilities](https://rrr.princeton.edu/) as well as in the University’s booklet [Academic Integrity at Princeton](https://odoc.princeton.edu/sites/odoc/files/950045_AcademicIntegrity2018-19_FINAL_PDF.pdf). We will refer any suspected infractions of the honor code to the Faculty-Student Committee on Discipline or the Honor Committee, in accordance with the University policy.
 
 Folders
 -------
