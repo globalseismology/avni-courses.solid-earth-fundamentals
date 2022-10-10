@@ -146,7 +146,7 @@ Document your work
 ------------------
 
 Please use as many Markdown cells as you can and be as descriptive as possible. The usage of images (png/jpeg files) or videos (gif works best) works well with
-Jupyter Notebooks and their use in instruction is strongly encourages. 
+Jupyter Notebooks and their use in instruction is strongly encouraged. 
 
 Any new code block should be fully Doxygen commented in [Python](#python-formatting). If you have some free time, feel free to comment any code you modify.
 
