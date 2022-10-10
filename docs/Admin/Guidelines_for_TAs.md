@@ -24,8 +24,8 @@ Table of Contents
 Pedagogy
 --------
 
-There are 5 teaching and evaluation components in this course - lectures, precepts, field trips, and problem sets. The instructor
-is in charge of coordinating with the others to make sure the content is as cohesive as feasible. This course is a smorgasbord of topics so this a challenging 
+There are 4 teaching and evaluation components in this course - lectures, precepts, field trips, and problem sets. The instructor
+is in charge of coordinating with others to make sure the content is as cohesive as feasible. This course is a smorgasbord of topics so this a challenging 
 task. All staff are expected to coordinate with each other and discuss details with the instructor so that all components work together and topics are
 tackled in a logical fashion.
 
