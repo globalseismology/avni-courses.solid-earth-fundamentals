@@ -34,8 +34,8 @@ Layout of responsibilities
 
 All staff will coordinate with the instructor before posting content on Canvas. The TA's are responsible for running the precepts, preparing the related problem sheet in Jupyter 
 Notebook in consultation with the instructor using the resources available from the Geosciences lab manager (e.g. samples, microscope) and other divisions at Princeton. The TA's are expected to assimilate information from various sources when preparing the final Jupyter Notebook. This includes but is not limited to revising questions based on the feedback and training provided to them. No major content development is expected from the TA's but working professionally to deliver a final product under the supervision of the instructor is. Professional and respectful conduct also includes being pro-active about grading on time and helping the lab manager setup the precept room whenever applicable.
-TA's are expected to answering questions
-from students during office hours or at other times by appointment, if available.
+TA's are expected to answer questions
+from students through e-mail, during office hours or at other times by appointment, if available.
 
 Grading and Honor Code
 -------
