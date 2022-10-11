@@ -1,7 +1,5 @@
 
-# GEO 203: Fundamentals of Solid Earth Science
-
-## Field Trip \# 1: Central Park and American Museum of Natural History
+## Central Park and American Museum of Natural History
 
 *Due 11:59pm Thursday, October 6 via Gradescope upload (see Canvas link)*
 
