@@ -1,0 +1,20 @@
+format: jb-book
+root: welcome
+parts:
+- caption: How To
+  chapters:
+  - file: How-To-Interact-With-This-Book
+    title: Interact With This Book
+- caption: The Course
+  chapters:
+  - file: docs/Admin/Guidelines_for_TAs
+    title: Guidelines for TAs
+- caption: The Book
+  chapters:
+  - file: PS_0_Setup/00_Markdown/markdown_tutorial
+    title: 1. Markdown
+    sections:
+    - file: PS_0_Setup/01_Command_Line/command_line_tutorial
+      title: Command Line
+    - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
+      title: Basics of Numpy
