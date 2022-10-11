@@ -9,12 +9,22 @@ parts:
   chapters:
   - file: docs/Admin/Guidelines_for_TAs
     title: Guidelines for TAs
-- caption: The Book
+- caption: Problem Sets
   chapters:
-  - file: PS_0_Setup/00_Markdown/markdown_tutorial
-    title: 1. Markdown
+  - file: PS_0_Setup/setup
+    title: 1. Setup
     sections:
+    - file: PS_0_Setup/00_Markdown/markdown_tutorial
+      title: Markdown
     - file: PS_0_Setup/01_Command_Line/command_line_tutorial
       title: Command Line
     - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
       title: Basics of Numpy
+- caption: Field Trips
+  chapters:
+  - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
+    title: American Musuem of Natural History
+- caption: Reading Quizzes
+  chapters:
+  - file: Reading_Quizzes/Stellar_Formation_and_Comparative_Planetology
+    title: Stellar Formation and Comparative Planetology
