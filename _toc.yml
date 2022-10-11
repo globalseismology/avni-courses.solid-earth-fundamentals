@@ -9,10 +9,10 @@ parts:
   chapters:
   - file: docs/Admin/Guidelines_for_TAs
     title: Guidelines for TAs
-- caption: Problem Sets
+- caption: Setup
   chapters:
   - file: PS_0_Setup/setup
-    title: 1. Setup
+    title: Setup
     sections:
     - file: PS_0_Setup/00_Markdown/markdown_tutorial
       title: Markdown
@@ -20,10 +20,20 @@ parts:
       title: Command Line
     - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
       title: Basics of Numpy
+- caption: Problem Sets
+  chapters:
+  - file: PS_1_Age_of_Earth_and_Plate_Tectonics/Age_of_the_Earth_and_Plate_Tectonics
+    title: Age of the Earth and Plate Tectonics
+  - file: PS_2_Pressure_Plate_Motion_Quake_Magnitude/Pressure_Plate_Motion_Quake_Magnitude
+    title: Pressure, Plate Motion and Quake Magnitude
+  - file: PS_3_Minerals/Minerals
+    title: Minerals
+  - file: PS_4_Rocks/Rocks
+    title: Rocks
 - caption: Field Trips
   chapters:
   - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
-    title: American Musuem of Natural History
+    title: American Museum of Natural History
 - caption: Reading Quizzes
   chapters:
   - file: Reading_Quizzes/Stellar_Formation_and_Comparative_Planetology
