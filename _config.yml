@@ -1,7 +1,7 @@
 #######################################################################################
 # Book settings
 title                       : Fundamentals of Solid Earth Sciences  # The title of the book. Will be placed in the left navbar.
-author                      : <a href="https://rajmoulik.org/">Pritwiraj (Raj) Moulik</a>  # The author of the book
+author                      : <a href="https://rajmoulik.com/">Pritwiraj (Raj) Moulik</a>  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo                        : "images/logo/favicon.ico"  # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
