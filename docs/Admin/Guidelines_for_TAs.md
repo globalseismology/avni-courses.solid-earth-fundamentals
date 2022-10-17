@@ -68,6 +68,9 @@ As part of this course, you will have to work with a team. This means that versi
 work across purposes and can revert back to a stable version of a (set of) files whenever needed. Please clone the folders 2 and 3 onto Adroit through the commands line
 and add suffixes *_pmoulik* and *_Princeton* to the folders. During Precepts, only work with the *_Princeton* folder to be in sync with the students.
 
+Please note that our procedure requires that we move all course content on our end to Jupyter Notebooks and Markdown text. 
+No Microsoft doc files will be created unless it is absolutely required to fulfill a very specific purpose.
+
 The pipeline for precepts and field guides wil include the following general steps:
 
 1. Convert all doc files, if any, to Markdown in a Jupyter notebook. 
@@ -108,8 +111,18 @@ git commit -am "I have added cool things"
 git push origin
 ```
 
-Check the messages from these commands and the files on the Github repository online. There should be a key for the problem set (i.e. suffix *-Key.ipynb*) online.
-**Please leave a message for the instructor on Slack latest by 9 PM before the day of the first precept**, so that they can review and push it downstream to
+Check the messages from these commands and the files on the Github repository online. There should be a key for the problem set (i.e. suffix *-Key.ipynb*) online. We have found that it is better if you start off by writing the key file with answers in red. The text between `<font color='red'>` and `</font> `gets rendered in red. e.g.
+
+`<font color='red'>Oxygen-rich atmosphere</font>`
+
+Once the key is created, delete the cells containing your key answers, add a Markdown cell with the following lines to give some breathing space:
+
+```
+<br/><br/>
+<br/><br/>
+```
+
+Save both the key and the problem set itself (i.e. the *.ipynb* file without suffix *-Key*), and push your changes to Github. **Please leave a message for the instructor on Slack latest by 9 PM before the day of the precept**, so that they can review and push it downstream to
 the Princeton repository for the students. You are then good to go!
 
 During the Precept
@@ -119,10 +132,15 @@ Please ask students to start an Adroit session an pull the latest changes using 
 duplicate the notebook and put the suffix *-PUID.ipynb* where *PUID* is their Princeton user name.
 
 Ask students to answer questions (To Do's) by filling cells within Jupyter notebooks with (Markdown) text or (Python) code answers. 
-Make them run the whole notebook on Adroit and upload the output as pdf on Gradescope (See [Start End Session](Start_End_Session.png)).
+Make them run the whole notebook on Adroit and upload the output as pdf on Gradescope (See [Start End Session](Start_End_Session.png)). 
 
-Please note that this procedure will require that we move all course content on our end to Jupyter Notebooks and Markdown text. 
-No Microsoft doc files will be created unless it is absolutely required to fulfill a very specific purpose.
+You may have noticed that some images are dropped when you print your Notebook as PDF. Another issue is that files can sometimes be very large, e.g. if you took photos with a high-resolution camera. Princeton IT and I have looked at this issue, and the only solution that will work is the following:
+
+- On Adroit, go to `File->Save and Export Notebook as->HTML`
+- Open the downloaded HTML file on your laptop and save as PDF from your favorite browser. 
+
+This should already reduce the PDF file size. You can reduce the file sizes further with Acrobat Reader. 
+
 
 Editing on Github
 -----------------
@@ -136,9 +154,9 @@ Click the `Add file->Create new file` button on the top right, and name your fil
 You can then write to Github in Markdown and preview how it will look like. For reference, the first quiz gets rendered 
 [like this in Markdown](https://github.com/pmoulik/GEO203_Fall2022_PSETS/blob/devel/Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology.md).
 
-Note that the answer is given in green colors. The text between `<font color='green'>` and `</font> `gets rendered in green. e.g.
+Note that the answer is given in red colors. The text between `<font color='red'>` and `</font> `gets rendered in red. e.g.
 
-`<font color='green'>Oxygen-rich atmosphere</font>`
+`<font color='red'>Oxygen-rich atmosphere</font>`
 
 At the bottom, add a comment about what you did, choose `Commit directly to the devel branch.` and press the `Commit new file` button.
 
