@@ -1,13 +1,18 @@
 
-## Central Park and American Museum of Natural History
+# Central Park and American Museum of Natural History
 
 *Due 11:59pm Thursday, October 6 via Gradescope upload (see Canvas link)*
 
-IN THE SPACE BELOW, WRITE OUT IN FULL AND THEN SIGN THE HONOR PLEDGE:
-
 “I pledge my honor that I have not violated the honor code during this examination.”
 
-**PRINT NAME**:
+**PRINT NAME**: 
+
+If a fellow student has contributed significantly to this work, please acknowledge them here:
+
+**Peer(s)**:                          
+
+*Contribution:*
+
 
 By uploading this assignment through Canvas, I sign off on the document below electronically.
 
