@@ -5,7 +5,7 @@ author                      : <a href="https://rajmoulik.com/">Pritwiraj (Raj) M
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo                        : "images/logo/favicon.ico"  # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
-exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", "**/in-progress", "**/other_files", "features", "scraps","**Key*","**key*"]
+exclude_patterns            : ["Human*",_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", "**/in-progress", "**/other_files", "features", "scraps","**Key*","**key*"]
 
 # Short description about the book
 description: >-
