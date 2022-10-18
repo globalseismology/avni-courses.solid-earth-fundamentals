@@ -1,5 +1,5 @@
-# This job installs dependencies, build the book, and pushes it to `gh-pages`
-name: Test and build docs on pull request self hosted
+# This job installs dependencies, build the book, and pushes it to portal.globalseismology.org
+name: Build Jupyter book on self hosted
 on: push
 jobs:
   deploy-book:
@@ -7,19 +7,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # Install dependencies
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.7
-
     #  Install Conda Requirements
     - name: Conda Requirements
       run: |
          && eval `modulecmd bash load anaconda3`
          && conda config --set channel_priority flexible
          && conda config --append channels conda-forge
-         && conda activate avni-doc
+         && conda activate fall2022-sef
 
     # Build the book
     - name: Build the book
