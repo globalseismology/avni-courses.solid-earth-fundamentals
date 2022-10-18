@@ -9,14 +9,12 @@ jobs:
 
     #  Install Conda Requirements
     - name: Conda Requirements
-      run: |
-         && eval `modulecmd bash load anaconda3`
-         && conda config --set channel_priority flexible
-         && conda config --append channels conda-forge
-         && conda activate fall2022-sef
+      run: eval `modulecmd bash load anaconda3`
+       && conda config --set channel_priority flexible
+       && conda config --append channels conda-forge
+       && conda activate fall2022-sef
 
     # Build the book
     - name: Build the book
-      run: |
-         && jupyter-book clean . --all
-         && jupyter-book build -W -n --keep-going .
+      run: jupyter-book clean . --all
+       && jupyter-book build -W -n --keep-going .
