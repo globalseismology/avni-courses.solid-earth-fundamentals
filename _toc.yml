@@ -20,6 +20,10 @@ parts:
       title: Command Line
     - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
       title: Basics of Numpy
+- caption: Lectures
+  chapters:
+  - file: Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system
+    title: Course Overview - Earth as a Natural System
 - caption: Problem Sets
   chapters:
   - file: PS_1_Age_of_Earth_and_Plate_Tectonics/Age_of_the_Earth_and_Plate_Tectonics
