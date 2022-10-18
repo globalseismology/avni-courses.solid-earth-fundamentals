@@ -1,4 +1,4 @@
-name: fall2022
+name: fall2022-sef
 channels:
   - plotly
   - conda-forge

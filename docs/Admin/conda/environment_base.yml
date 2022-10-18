@@ -1,4 +1,4 @@
-name: base
+name: base-sef
 channels:
   - defaults
 dependencies:
