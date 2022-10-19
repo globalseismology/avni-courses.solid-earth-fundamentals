@@ -1,4 +1,4 @@
-## Building Jupyter Book
+# Building Jupyter Book
 
 Jupyter Book is an open-source tool for building publication-quality books and documents from computational material.
 

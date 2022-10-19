@@ -9,17 +9,22 @@ parts:
   chapters:
   - file: docs/Admin/Guidelines_for_TAs
     title: Guidelines for TAs
-- caption: Setup
+  - file: docs/Admin/Build_Jupyter_Book
+    title: Building Jupyter Book
+  - file: docs/Admin/conda/README_Conda
+    title: Conda Environments
+- caption: Tutorials
   chapters:
-  - file: PS_0_Setup/setup
-    title: Setup
-    sections:
-    - file: PS_0_Setup/00_Markdown/markdown_tutorial
-      title: Markdown
-    - file: PS_0_Setup/01_Command_Line/command_line_tutorial
-      title: Command Line
-    - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
-      title: Basics of Numpy
+  - file: PS_0_Setup/00_Markdown/markdown_tutorial
+    title: Markdown
+  - file: PS_0_Setup/01_Command_Line/command_line_tutorial
+    title: Command Line
+  - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
+    title: Basics of Numpy
+  - file: PS_0_Setup/02_Intro_Python/2_Basic_Plotting
+    title: Basics of Plotting
+  - file: PS_0_Setup/03_Basic_Libraries/Basic_Libraries
+    title: Some Python Libraries
 - caption: Lectures
   chapters:
   - file: Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system
@@ -34,11 +39,15 @@ parts:
     title: Minerals
   - file: PS_4_Rocks/Rocks
     title: Rocks
+  - file: PS_5_Seismology_Isostasy/Seismology_Isostasy
+    title: Seismology and Isostasy
+  - file: PS_7_Human_Interactions/Human_Interactions
+    title: Human Interactions
 - caption: Field Trips
   chapters:
   - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
     title: American Museum of Natural History
 - caption: Reading Quizzes
   chapters:
-  - file: Reading_Quizzes/Stellar_Formation_and_Comparative_Planetology
+  - file: Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology
     title: Stellar Formation and Comparative Planetology
