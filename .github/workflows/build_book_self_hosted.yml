@@ -4,6 +4,7 @@ on: push
 jobs:
   deploy-book:
     runs-on: self-hosted
+    
     # Do not ignore bash profile files. From:
     # https://github.com/marketplace/actions/setup-miniconda
     defaults:
@@ -11,7 +12,6 @@ jobs:
         shell: bash -l {0}
     steps:
       - uses: actions/checkout@v2
-    #  Install Conda Requirements
       - uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: fall2022-sef
@@ -22,20 +22,20 @@ jobs:
           auto-activate-base: false
 
     # Build the book
-    - name: Build the book
-      run: jupyter-book clean . --all
-       && jupyter-book build -W -n --keep-going .
+      - name: Build the book
+        run: jupyter-book clean . --all
+         && jupyter-book build -W -n --keep-going .
 
     #  Rsync with SSH 
     #  https://zellwk.com/blog/github-actions-deploy/
-    - name: Install SSH Key
-      uses: shimataro/ssh-key-action@v2
-      with:
-        key: ${{ secrets.SSH_PRIVATE_KEY_DWAR }}
-        known_hosts: unnecessary
-        if_key_exists: replace
-    - name: Adding Known Hosts
-      run: ssh-keyscan -H ${{ secrets.SSH_HOST_DWAR }} >> ~/.ssh/known_hosts
-    - name: Deploy with rsync
-      run: rsync -r -g --delete-after -v _build/html/* ${{ secrets.SSH_USER_DWAR }}@${{ secrets.SSH_HOST_DWAR }}:/var/www/portal/drupal/courses/solid-earth-fundamentals/fall2022/
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY_DWAR }}
+          known_hosts: unnecessary
+          if_key_exists: replace
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H ${{ secrets.SSH_HOST_DWAR }} >> ~/.ssh/known_hosts
+      - name: Deploy with rsync
+        run: rsync -r -g --delete-after -v _build/html/* ${{ secrets.SSH_USER_DWAR }}@${{ secrets.SSH_HOST_DWAR }}:/var/www/portal/drupal/courses/solid-earth-fundamentals/fall2022/
 
