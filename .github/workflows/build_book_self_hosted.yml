@@ -4,16 +4,22 @@ on: push
 jobs:
   deploy-book:
     runs-on: self-hosted
+    # Do not ignore bash profile files. From:
+    # https://github.com/marketplace/actions/setup-miniconda
     defaults:
       run:
         shell: bash -l {0}
-        
     steps:
-    - uses: actions/checkout@v2
-
+      - uses: actions/checkout@v2
     #  Install Conda Requirements
-    - name: Conda Requirements
-      run: conda activate fall2022-sef
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: fall2022-sef
+          environment-file: docs/Admin/conda/environment_fall2022.yml
+          python-version: 3.9
+          use-only-tar-bz2: true  # IMPORTANT: This needs to be set for caching to work properly!
+          auto-update-conda: true
+          auto-activate-base: false
 
     # Build the book
     - name: Build the book
