@@ -1,6 +1,4 @@
-# GEO 203: Fundamentals of Solid Earth Science
-
-## Guidelines and expectations from Instructional Staff
+# Guidelines and expectations from Instructional Staff
 
 GEO203 is meant to be an introductory course in **solid** Earth geosciences. The sections below document the various procedures and workflows expected from 
 the staff involved in delivering this course. If you have any questions or concerns, please do not assume anything, and simply e-mail the instructor of the course.

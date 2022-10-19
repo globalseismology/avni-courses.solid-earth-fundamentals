@@ -7,6 +7,8 @@ parts:
     title: Interact With This Book
 - caption: The Course
   chapters:
+  - file: docs/Admin/Setup_for_Admin
+    title: Computational setup
   - file: docs/Admin/Guidelines_for_TAs
     title: Guidelines for TAs
   - file: docs/Admin/Build_Jupyter_Book
