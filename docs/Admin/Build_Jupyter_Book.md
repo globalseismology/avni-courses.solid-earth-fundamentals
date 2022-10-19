@@ -11,7 +11,7 @@ Jupyter Book allows users to
     * a web-based interactive book and
     * a publication-quality PDF.
 
-The Jupyter Book can be built by cleaning earlier builds, and building the book by forcing execution of notebooks to create content (through the `execute_notebooks : "force"` option in the [configuration file](_config.yml).
+The Jupyter Book can be built by cleaning earlier builds, and building the book by forcing execution of notebooks to create content (through the `execute_notebooks : "force"` option in the [configuration file](../../_config.yml).
 
 ```
 jupyter-book clean . --all

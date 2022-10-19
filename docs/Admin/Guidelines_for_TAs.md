@@ -73,7 +73,7 @@ The pipeline for precepts and field guides wil include the following general ste
 
 1. Convert all doc files, if any, to Markdown in a Jupyter notebook. 
 
-2. Add images and data and display any within the notebook (refer the [Markdown cheatsheet](../PS_0_Setup/00_Markdown/Markdown_Cheat_Sheet.png))
+2. Add images and data and display any within the notebook (refer the [Markdown cheatsheet](../../PS_0_Setup/00_Markdown/Markdown_Cheat_Sheet.png))
 
 3. After finalizing the precept in folder 2, we push the changes downstream to folder 3 before the precept starts on Thursdays.
 
@@ -130,7 +130,7 @@ Please ask students to start an Adroit session an pull the latest changes using 
 duplicate the notebook and put the suffix *-PUID.ipynb* where *PUID* is their Princeton user name.
 
 Ask students to answer questions (To Do's) by filling cells within Jupyter notebooks with (Markdown) text or (Python) code answers. 
-Make them run the whole notebook on Adroit and upload the output as pdf on Gradescope (See [Start End Session](Start_End_Session.png)). 
+Make them run the whole notebook on Adroit and upload the output as pdf on Gradescope (See [Start End Session](../Start_End_Session.png)). 
 
 You may have noticed that some images are dropped when you print your Notebook as PDF. Another issue is that files can sometimes be very large, e.g. if you took photos with a high-resolution camera. Princeton IT and I have looked at this issue, and the only solution that will work is the following:
 
