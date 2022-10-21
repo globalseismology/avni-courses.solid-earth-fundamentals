@@ -262,6 +262,7 @@ dependencies:
   - numpy=1.21.5=py39he7a7128_1
   - numpy-base=1.21.5=py39hf524024_1
   - numpydoc=1.2=pyhd3eb1b0_0
+  - obspy=1.2.2=py39hce5d2b2_1
   - olefile=0.46=pyhd3eb1b0_0
   - oniguruma=6.9.7.1=h27cfd23_0
   - openjpeg=2.4.0=h3ad879b_0
@@ -368,7 +369,8 @@ dependencies:
   - scikit-learn-intelex=2021.5.0=py39h06a4308_0
   - scipy=1.7.3=py39hc147768_0
   - scrapy=2.6.1=py39h06a4308_0
-  - seaborn=0.11.2=pyhd3eb1b0_0
+  - seaborn=0.12.1=hd8ed1ab_0
+  - seaborn-base=0.12.1=pyhd8ed1ab_0
   - secretstorage=3.3.1=py39h06a4308_0
   - send2trash=1.8.0=pyhd3eb1b0_1
   - service_identity=18.1.0=pyhd3eb1b0_1
@@ -453,6 +455,7 @@ dependencies:
   - zope.interface=5.4.0=py39h7f8727e_0
   - zstd=1.4.9=haebb681_0
   - pip:
+    - gatspy==0.3
     - gitdb==4.0.9
     - gitpython==3.1.29
     - jsonschema==3.2.0
