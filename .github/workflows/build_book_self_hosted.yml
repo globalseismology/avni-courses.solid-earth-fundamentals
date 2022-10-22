@@ -27,13 +27,6 @@ jobs:
          && jupyter-book build -W -n --keep-going .
 
     #  Rsync with SSH 
-    #  https://zellwk.com/blog/github-actions-deploy/
-      - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.SSH_PRIVATE_KEY_DWAR }}
-          known_hosts: unnecessary
-          if_key_exists: replace
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST_DWAR }} >> ~/.ssh/known_hosts
       - name: Deploy with rsync
