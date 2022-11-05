@@ -18,38 +18,38 @@ parts:
 - caption: Tutorials
   chapters:
   - file: PS_0_Setup/00_Markdown/markdown_tutorial
-    title: Markdown
+    title: (a) Markdown
   - file: PS_0_Setup/01_Command_Line/command_line_tutorial
-    title: Command Line
+    title: (b) Command Line
   - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
-    title: Basics of Numpy
+    title: (c) Basics of Numpy
   - file: PS_0_Setup/02_Intro_Python/2_Basic_Plotting
-    title: Basics of Plotting
+    title: (d) Basics of Plotting
   - file: PS_0_Setup/03_Basic_Libraries/Basic_Libraries
-    title: Some Python Libraries
+    title: (e) Some Python Libraries
 - caption: Lectures
   chapters:
   - file: Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system
-    title: Course Overview - Earth as a Natural System
+    title: (1) Course Overview - Earth as a Natural System
 - caption: Problem Sets
   chapters:
   - file: PS_1_Age_of_Earth_and_Plate_Tectonics/Age_of_the_Earth_and_Plate_Tectonics
-    title: Age of the Earth and Plate Tectonics
+    title: (i) Age of the Earth and Plate Tectonics
   - file: PS_2_Pressure_Plate_Motion_Quake_Magnitude/Pressure_Plate_Motion_Quake_Magnitude
-    title: Pressure, Plate Motion and Quake Magnitude
+    title: (ii) Pressure, Plate Motion and Quake Magnitude
   - file: PS_3_Minerals/Minerals
-    title: Minerals
+    title: (iii) Minerals
   - file: PS_4_Rocks/Rocks
-    title: Rocks
+    title: (iv) Rocks
   - file: PS_5_Seismology_Isostasy/Seismology_Isostasy
-    title: Seismology and Isostasy
+    title: (v) Seismology and Isostasy
   - file: PS_7_Human_Interactions/Human_Interactions
-    title: Human Interactions
+    title: (vi) Human Interactions
 - caption: Field Trips
   chapters:
   - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
-    title: American Museum of Natural History
+    title: (A) American Museum of Natural History
 - caption: Reading Quizzes
   chapters:
   - file: Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology
-    title: Stellar Formation and Comparative Planetology
+    title: (a) Stellar Formation and Comparative Planetology
