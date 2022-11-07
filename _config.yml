@@ -3,7 +3,7 @@
 title                       : Fundamentals of Solid Earth Science  # The title of the book. Will be placed in the left navbar.
 author                      : <a href="https://rajmoulik.com/">Pritwiraj (Raj) Moulik</a>  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
-logo                        : "images/logo/favicon.ico"  # A path to the book logo
+logo                        : "images/logo/logo_avni_color.ico"  # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", "**/in-progress", "**/other_files", "features", "README.md",
 "scraps","**Key*","**key*","_**.yml",".gitignore"]
@@ -21,7 +21,7 @@ execute:
 #######################################################################################
 # HTML-specific settings
 html:
-  favicon                   : "images/logo/favicon.ico"  # A path to a favicon image
+  favicon                   : "images/logo/logo_avni_color.ico"  # A path to a favicon image
   use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
   use_repository_button     : false  # Whether to add a link to your repository button
   use_issues_button         : false  # Whether to add an "open an issue" button
@@ -33,7 +33,7 @@ html:
 
 #  google_analytics_id       : "UA-86905362-3"  # A GA id that can be used to track book views.
   home_page_in_navbar       : false  # Whether to include your home page in the left Navigation Bar
-  baseurl                   : "https://github.com/pmoulik/GEO203_Fall2022_PSETS"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  baseurl                   : "https://github.com/globalseismology/avni-courses"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis              : false
     utterances              : false
