@@ -17,15 +17,15 @@ parts:
     title: Conda Environments
 - caption: Tutorials
   chapters:
-  - file: PS_0_Setup/00_Markdown/markdown_tutorial
+  - file: PS_Setup/00_Markdown/markdown_tutorial
     title: (a) Markdown
-  - file: PS_0_Setup/01_Command_Line/command_line_tutorial
+  - file: PS_Setup/01_Command_Line/command_line_tutorial
     title: (b) Command Line
-  - file: PS_0_Setup/02_Intro_Python/1_Basic_Numpy
+  - file: PS_Setup/02_Intro_Python/1_Basic_Numpy
     title: (c) Basics of Numpy
-  - file: PS_0_Setup/02_Intro_Python/2_Basic_Plotting
+  - file: PS_Setup/02_Intro_Python/2_Basic_Plotting
     title: (d) Basics of Plotting
-  - file: PS_0_Setup/03_Basic_Libraries/Basic_Libraries
+  - file: PS_Setup/03_Basic_Libraries/Basic_Libraries
     title: (e) Some Python Libraries
 - caption: Lectures
   chapters:
@@ -33,22 +33,30 @@ parts:
     title: (1) Course Overview - Earth as a Natural System
 - caption: Problem Sets
   chapters:
-  - file: PS_1_Age_of_Earth_and_Plate_Tectonics/Age_of_the_Earth_and_Plate_Tectonics
-    title: (i) Age of the Earth and Plate Tectonics
-  - file: PS_2_Pressure_Plate_Motion_Quake_Magnitude/Pressure_Plate_Motion_Quake_Magnitude
+  - file: PS_Plate_Tectonics/Plate_Tectonics
+    title: (i) Plate Tectonics
+  - file: PS_Pressure_Plate_Motion_Quake_Magnitude/Pressure_Plate_Motion_Quake_Magnitude
     title: (ii) Pressure, Plate Motion and Quake Magnitude
-  - file: PS_3_Minerals/Minerals
+  - file: PS_Minerals/Minerals
     title: (iii) Minerals
-  - file: PS_4_Rocks/Rocks
+  - file: PS_Rocks/Rocks
     title: (iv) Rocks
-  - file: PS_5_Seismology_Isostasy/Seismology_Isostasy
-    title: (v) Seismology and Isostasy
-  - file: PS_7_Human_Interactions/Human_Interactions
-    title: (vi) Human Interactions
+  - file: PS_Relative_Absolute_Dating/Dating
+    title: (v) Relative and Absolute Dating
+  - file: PS_Seismology_Isostasy/Seismology_Isostasy
+    title: (vi) Seismology and Isostasy
+  - file: PS_Climate/Climate
+    title: (vii) Climate
+  - file: PS_Human_Interactions/Human_Interactions
+    title: (viii) Human Interactions
 - caption: Field Trips
   chapters:
   - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
     title: (A) American Museum of Natural History
+  - file: Field_Trip_2_Geophysics/Field_Geophysics
+    title: (B) Geophysical Field Survey
+  - file: Field_Trip_3_Local_Geology/GeoExchange_and_Field_Trip
+    title: (C) GeoExchange Site Visit and Geology Field Trip    
 - caption: Reading Quizzes
   chapters:
   - file: Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology
