@@ -34,7 +34,7 @@
         		console.log(authenticated ? 'Resource Roles : '+JSON.stringify(resource_roles) : 'Not Authenticated');
         		resource_roles = resource_roles.reduce((index,value) => (index[value] = true, index), {});
                 
-        		if (!((realm_roles.admin === true || realm_roles.supervisor === true  || ( resource_roles.access_admin_docs === true && groups['/Students/fall2022_sef'] === true ) ))) 
+        		if (!((realm_roles.admin === true || realm_roles.supervisor === true  || ( resource_roles.access_resources === true && groups['/Students/fall2022_sef'] === true ) ))) 
         			redirect();
 
             } else {
