@@ -1,0 +1,8 @@
+{
+  "realm": "GlobalSeismology",
+  "auth-server-url": "https://dwar.princeton.edu:8443/",
+  "ssl-required": "external",
+  "resource": "web_js",
+  "public-client": true,
+  "confidential-port": 0
+}

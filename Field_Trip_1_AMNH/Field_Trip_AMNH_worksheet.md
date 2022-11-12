@@ -1,7 +1,6 @@
-
 # Central Park and American Museum of Natural History
 
-*Due 11:59pm Thursday, October 6 via Gradescope upload (see Canvas link)*
+IN THE SPACE BELOW, WRITE OUT IN FULL AND THEN SIGN THE HONOR PLEDGE:
 
 “I pledge my honor that I have not violated the honor code during this examination.”
 
@@ -42,9 +41,9 @@ formed bodies of rock called **intrusions**. Note the sharp contacts of these in
 <br/><br/>
 <br/><br/>
 
-Exposure A | Vein | Grooves 
-- | - | - 
-<img src = "Images/Umpire_Rock_1.jpg" width = "300" height = "300" > | <img src = "Images/Umpire_Rock_2.jpg" width = "300" height = "300" > | <img src = "Images/Umpire_Rock_3.jpg" width = "300" height = "300" > 
+<img src="Images/Umpire_Rock_1.jpg" alt="drawing" width="44%"/> <img src="Images/Umpire_Rock_2.jpg" alt="drawing" width="25%"/> <img src="Images/Umpire_Rock_3.jpg" alt="drawing" width="25%"/>
+
+*Figure: (left) Exposure A, (middle) Vein, and (right) grooves.*
 
 Go around to the north-western face of the Umpire Rock. Step off rock exposure, stand on the soil or grass, and look at the rock face that slopes gently down towards you. Locate the foot-or-so wide, parallel **grooves** that extend for several yards up the outcrop. The origin of the grooves may be explained in terms of the movement of glaciers. About 15 thousand years ago, a giant body of flowing ice (a glacier) covered this area. Embedded in the ice at the bottom of the glacier were large boulders. As the ice pressed down on these boulders and dragged them over the underlying bedrock, grooves were carved in the bedrock. Smaller particles of rock that were dragged along created smaller grooves called **striations**.
 
@@ -68,9 +67,9 @@ Enter Sheep Meadow through the small gate and walk toward the large outcrop of r
 <br/><br/>
 <br/><br/>
 
-Entrance | Exposure B 
-- | - 
-<img src = "Images/Sheep_Meadow_1.jpg" width = "300" height = "300" > | <img src = "Images/Sheep_Meadow_2.jpg" width = "300" height = "300" > 
+<img src="Images/Sheep_Meadow_1.jpg" alt="drawing" width="45%"/> <img src="Images/Sheep_Meadow_2.jpg" alt="drawing" width="33%"/>
+
+*Figure: (left) entrance to Sheep Meadow and (right) exposure B.*
 
 **Question 1.4** Find some striations. What is their orientation with respect to the grooves? Provide the two directions of grooves themselves in this area (in degrees from the North). Are these values similar to those obtained in Stop 1? What does this and the direction of gentler slopes tell you about the flow of glaciers in this area?
 
@@ -79,9 +78,9 @@ Entrance | Exposure B
 <br/><br/>
 <br/><br/>
 
-Striations | Erratics
-- | - 
-<img src = "Images/Sheep_Meadow_4.jpg" width = "300" height = "300" > | <img src = "Images/Sheep_Meadow_5.jpg" width = "300" height = "300" > 
+<img src="Images/Sheep_Meadow_4.jpg" alt="drawing" width="25%"/> <img src="Images/Sheep_Meadow_5.jpg" alt="drawing" width="45%"/>
+
+*Figure: (left) striations, and (right) erratics.*
 
 Checkout the boulders that lie scattered on the surface of the rock exposure. Walk to the large boulder perched on the rock. There was a similarly large boulder precariously perched on top of the ancient glistening bedrock near the carousel on your way from Stop 1. These boulders are called **erratics**.
 
@@ -95,9 +94,10 @@ Checkout the boulders that lie scattered on the surface of the rock exposure. Wa
 ### Stop 3: Road Cut next to the Museum
 *Coordinates*: (40.7828557$^{\circ}$ N, 73.9710358$^{\circ}$ W), *Google Maps*: [Link](https://goo.gl/maps/vN34Luorr3BzGm5UA)
 
-Layers | Zoomed In
-- | - 
-<img src = "Images/Road_Cut_1.jpg" width = "300" height = "300" > | <img src = "Images/Road_Cut_2.jpg" width = "300" height = "300" > 
+<img src="Images/Road_Cut_1.jpg" alt="drawing" width="45%"/> <img src="Images/Road_Cut_2.jpg" alt="drawing" width="45%"/>
+
+*Figure: (left) bedding of layers, and (right) zoomed in.*
+
 
 **Question 1.6.** Engineers and construction workers often have to blast or drill through layers of rock. This creates opportunities for geoscientists to probe the interior and test their hypotheses. The cross-section of bedrock above on Central Park West shows how the layers of Manhattan schist are tilted. Using a compass, provide the direction towards which the these layers are tilted? How does this direction compare with the direction that glaciers moved based on Stop 2 above? Based on this, can you infer which came first - folding of layers due to continental collisions or movement of glaciers?
 
@@ -114,7 +114,9 @@ We will start off by seeing the "Worlds Beyond Earth" show at the Hayden Planeta
 
 **Note: Only 5 out of the 15 questions below are required; note the annotation next to such questions. You need to answer 10 questions including the 5 required ones. If you answer more than 10 questions, we will take your best scores among the optional ones you answered. Skip up to 5 questions so that you find time to wander about!**
 
-![Figure 1. Layout of the Museum and our Various Stops](Images/AMNH_Floors.png)
+<img src="Images/AMNH_Floors.png" alt="drawing" width="95%"/>
+
+*Figure: Layout of the Museum and our Various Stops.*
 
 ### Stop 1: Hayden Planetarium, 3<sup>rd</sup> floor
 
@@ -175,7 +177,9 @@ We will start off by seeing the "Worlds Beyond Earth" show at the Hayden Planeta
 ### Stop 4: Mignone Halls of Gems and Minerals, 1<sup>st</sup> floor
 The recently renovated Mignone Hall of Gems and Minerals feature more than five thousand specimens from ninety-eight countries and a wide range of geologic environments. This is only a fraction of the museum’s overall collection of two hundred thousand specimens.  
 
-![Figure 2. Layout of the Hall of Minerals](Images/AMNH_Mineral_Hall.png)
+<img src="Images/AMNH_Mineral_Hall.png" alt="drawing" width="95%"/>
+
+*Figure: Layout of the Hall of Minerals.*
 
 **Question 2.8**. List the five important environments for mineral/gem formation.  Give an example of at least one gemstone found in each. (**required**)
 
