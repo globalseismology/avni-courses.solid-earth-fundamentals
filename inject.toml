@@ -10,7 +10,9 @@ root_dir = '.'
 build_dir = '_build/html'
 js_dir = '_build/html/_static'
 keycloak_js = "docs/Admin/js/keycloak.js"
+keycloak_web_token = "docs/Admin/js/keycloak_web_js.json"
 body_tag_inject='onload=initKeycloak()'
+unlock_logout_inject = "docs/Admin/html/unlock_logout.html"
 
 [restricted]
 

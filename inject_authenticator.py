@@ -29,7 +29,28 @@ def main():
         for f in file: 
             if f.endswith('.html'): 
                 all_files.append(os.path.join(roots, f))
-    
+                
+    for file in all_files:
+        # load the file
+        with open(file) as inf:
+            txt = inf.read()
+            soup = bs4.BeautifulSoup(txt, 'html.parser')
+        # inject unlock and logout buttons
+        # load the file
+        unlock_logout = cfg['html']['unlock_logout_inject']
+        with open(unlock_logout) as inf:
+            txt = inf.read()
+            soup2 = bs4.BeautifulSoup(txt, 'html.parser')
+        find_left_header = len(soup.find_all('div', class_='header-article__left'))
+        if find_left_header>0:
+            soup.find_all('div', class_='header-article__left')[-1].append(soup2)
+            # save the file again
+            with open(file, "w") as outf: outf.write(str(soup))
+            print("Injecting unlock and logout button in all:", file)
+        else:
+            print('Warning: Did not inject a header for - ', file)
+
+#######################################################################################    
     # loop through list of restricted criterion
     restricted = cfg['restricted']
     files_inject = {} #initialize
@@ -79,12 +100,17 @@ def main():
     js_dir = cfg['html']['js_dir']
     body_tag_inject = cfg['html']['body_tag_inject']
     body_tag_inject=body_tag_inject.split('=')
-    keycloak_js = cfg['html']['keycloak_js']
-    keycloak_js_site = js_dir+'/'+os.path.basename(keycloak_js)
+    
     
     # Copy file example.txt into a new file called example_copy.txt
+    keycloak_js = cfg['html']['keycloak_js']
+    keycloak_js_site = js_dir+'/'+os.path.basename(keycloak_js)
     shutil.copy(keycloak_js, keycloak_js_site)
+    keycloak_token = cfg['html']['keycloak_web_token']
+    keycloak_token_site = js_dir+'/'+os.path.basename(keycloak_token)
+    shutil.copy(keycloak_token, keycloak_token_site)
 
+                    
     for rtyp in files_inject:
         for file in files_inject[rtyp]['files']:
             print("Injecting JS:", file)
@@ -100,28 +126,28 @@ def main():
             
             # load the file
             with open(file) as inf:
-            	txt = inf.read()
-            	soup = bs4.BeautifulSoup(txt, 'html.parser')
-            	
+                txt = inf.read()
+                soup = bs4.BeautifulSoup(txt, 'html.parser')
+                
             # add keycloak to body
             soup.body[body_tag_inject[0]] = body_tag_inject[1]
             
             # create a new script in head
-            comment = bs4.Comment('<!-- Keycloak PHP/HTML Authenticator -->')
-            soup.head.append("\n")
-            soup.head.append("\n")
-            soup.head.append(comment)                
+            comment = bs4.Comment('Keycloak PHP/HTML Authenticator')
+            soup.head.insert(0,"\n")
+            soup.head.insert(1, comment)    
+            # relative paths does not work for keycloak.js unless you put at the top of head
             src_path = os.path.relpath(keycloak_js_site,os.path.dirname(file))
             new_script = soup.new_tag("script",src=src_path)
-            soup.head.append("\n")
-            soup.head.append(new_script)
-            soup.head.append("\n")
+            soup.head.insert(2,"\n")
+            soup.head.insert(3, new_script)    
             src_path = os.path.relpath(authfile,os.path.dirname(file))
             new_script = soup.new_tag("script",src=src_path)
-            soup.head.append(new_script)
-            soup.head.append("\n")
-            soup.head.append("\n")
-            
+            soup.head.insert(4,"\n")
+            soup.head.insert(5,new_script)
+            soup.head.insert(6,"\n")
+            soup.head.insert(7,"\n")
+                        
             # save the file again
             with open(file, "w") as outf: outf.write(str(soup))
     
