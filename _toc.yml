@@ -38,15 +38,15 @@ parts:
   - file: PS_Plate_Tectonics/Plate_Tectonics
     title: (i) Plate Tectonics
   - file: PS_Pressure_Plate_Motion_Quake_Magnitude/Pressure_Plate_Motion_Quake_Magnitude
-    title: (ii) Pressure, Plate Motion and Quake Magnitude
+    title: (ii) Pressure, Plate Motion & Quake Magnitude
   - file: PS_Minerals/Minerals
     title: (iii) Minerals
   - file: PS_Rocks/Rocks
     title: (iv) Rocks
   - file: PS_Relative_Absolute_Dating/Dating
-    title: (v) Relative and Absolute Dating
+    title: (v) Relative & Absolute Dating
   - file: PS_Seismology_Isostasy/Seismology_Isostasy
-    title: (vi) Seismology and Isostasy
+    title: (vi) Seismology & Isostasy
   - file: PS_Climate/Climate
     title: (vii) Climate
   - file: PS_Human_Interactions/Human_Interactions
@@ -54,12 +54,12 @@ parts:
 - caption: Field Trips
   chapters:
   - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
-    title: (A) American Museum of Natural History
+    title: (A) Central Park & American Museum of Natural History
   - file: Field_Trip_2_Geophysics/Field_Geophysics
     title: (B) Geophysical Field Survey
   - file: Field_Trip_3_Local_Geology/GeoExchange_and_Field_Trip
-    title: (C) GeoExchange Site Visit and Geology Field Trip    
+    title: (C) GeoExchange Site Visit & Geology Field Trip    
 - caption: Reading Quizzes
   chapters:
   - file: Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology
-    title: (a) Stellar Formation and Comparative Planetology
+    title: (a) Stellar Formation & Comparative Planetology
