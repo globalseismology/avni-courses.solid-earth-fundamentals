@@ -1,6 +1,4 @@
-# GEO 203: Fundamentals of Solid Earth Science
-
-## Quiz \# 1 Stellar Formation and Comparative Planetology
+# Quiz: Stellar Formation and Comparative Planetology
 
 IN THE SPACE BELOW, WRITE OUT IN FULL AND THEN SIGN THE HONOR PLEDGE:
 
