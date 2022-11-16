@@ -5,6 +5,8 @@ parts:
   chapters:
   - file: How-To-Interact-With-This-Book
     title: Interact With This Book
+  - file: acknowlegements
+    title: Acknowlegements
   - file: Restricted-Content
     title: Restricted Content
 - caption: The Course
