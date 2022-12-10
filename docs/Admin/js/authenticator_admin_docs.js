@@ -5,6 +5,7 @@
     };
     
     function redirect() {
+        console.log("Redirecting")
         window.location.href = homepage + "/Restricted-Content.html";
     }
 
@@ -35,17 +36,24 @@
         		resource_roles = resource_roles.reduce((index,value) => (index[value] = true, index), {});
                 
         		if (!((realm_roles.admin === true || realm_roles.supervisor === true  ||  resource_roles.access_admin_docs === true ))) 
-        			redirect();
+                    redirect();
+                } else {
+                    document.getElementById("hideDiv").style.display="block";
+                }
 
             } else {
 
-      
+
                 if (!(realm_roles.admin === true || realm_roles.supervisor === true )) 
-                	redirect();
-            	
+                    redirect();
+                } else {
+                    document.getElementById("hideDiv").style.display="block";
+                }
             }
+
                 
             }).catch(function() {
                 console.log('failed to initialize');
+                redirect();
             });
     }

@@ -147,6 +147,7 @@ def main():
             soup.head.insert(5,new_script)
             soup.head.insert(6,"\n")
             soup.head.insert(7,"\n")
+            soup.body.wrap(soup.new_tag("div", **{"id": "hideDiv", "style": "display:none"}))
                         
             # save the file again
             with open(file, "w") as outf: outf.write(str(soup))

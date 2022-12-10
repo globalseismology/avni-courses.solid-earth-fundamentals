@@ -5,6 +5,7 @@
     };
     
     function redirect() {
+        console.log("Redirecting")
         window.location.href = homepage + "/Restricted-Content.html";
     }
 
@@ -34,18 +35,26 @@
         		console.log(authenticated ? 'Resource Roles : '+JSON.stringify(resource_roles) : 'Not Authenticated');
         		resource_roles = resource_roles.reduce((index,value) => (index[value] = true, index), {});
                 
-        		if (!((realm_roles.admin === true || realm_roles.supervisor === true  || ( resource_roles.access_lectures === true && groups['/Students/fall2022_sef'] === true ) ))) 
-        			redirect();
+                
+        		if (!((realm_roles.admin === true || realm_roles.supervisor === true  || ( resource_roles.access_lectures === true && groups['/Students/fall2022_sef'] === true ) ))) {
+                    redirect();
+                } else {
+                    document.getElementById("hideDiv").style.display="block";
+                }
+
 
             } else {
 
-      
-                if (!(realm_roles.admin === true || realm_roles.supervisor === true || groups['/Students/fall2022_sef'] === true )) 
-                	redirect();
-            	
+                if (!(realm_roles.admin === true || realm_roles.supervisor === true || groups['/Students/fall2022_sef'] === true )) {
+                    redirect();
+                } else {
+                    document.getElementById("hideDiv").style.display="block";
+                }
             }
+
                 
             }).catch(function() {
                 console.log('failed to initialize');
+                redirect();
             });
     }
