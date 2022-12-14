@@ -9,26 +9,14 @@ parts:
     title: Acknowledgements
   - file: Restricted-Content
     title: Restricted Content
-- caption: The Course
+- caption: Field Trips
   chapters:
-  - file: docs/Admin/Setup_for_Admin
-    title: Computational setup
-- caption: Tutorials
-  chapters:
-  - file: PS_Setup/00_Markdown/markdown_tutorial
-    title: (a) Markdown
-  - file: PS_Setup/01_Command_Line/command_line_tutorial
-    title: (b) Command Line
-  - file: PS_Setup/02_Intro_Python/1_Basic_Numpy
-    title: (c) Basics of Numpy
-  - file: PS_Setup/02_Intro_Python/2_Basic_Plotting
-    title: (d) Basics of Plotting
-  - file: PS_Setup/03_Basic_Libraries/Basic_Libraries
-    title: (e) Some Python Libraries
-- caption: Lectures
-  chapters:
-  - file: Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system
-    title: (1) Course Overview - Earth as a Natural System
+  - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
+    title: (A) Central Park & American Museum of Natural History
+  - file: Field_Trip_2_Geophysics/Field_Geophysics
+    title: (B) Geophysical Field Survey
+  - file: Field_Trip_3_Local_Geology/GeoExchange_and_Field_Trip
+    title: (C) GeoExchange Site Visit & Geology Field Trip    
 - caption: Problem Sets
   chapters:
   - file: PS_Plate_Tectonics/Plate_Tectonics
@@ -47,14 +35,26 @@ parts:
     title: (vii) Climate
   - file: PS_Human_Interactions/Human_Interactions
     title: (viii) Human Interactions
-- caption: Field Trips
+- caption: Lectures
   chapters:
-  - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
-    title: (A) Central Park & American Museum of Natural History
-  - file: Field_Trip_2_Geophysics/Field_Geophysics
-    title: (B) Geophysical Field Survey
-  - file: Field_Trip_3_Local_Geology/GeoExchange_and_Field_Trip
-    title: (C) GeoExchange Site Visit & Geology Field Trip    
+  - file: Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system
+    title: (1) Course Overview - Earth as a Natural System
+- caption: Tutorials
+  chapters:
+  - file: PS_Setup/00_Markdown/markdown_tutorial
+    title: (a) Markdown
+  - file: PS_Setup/01_Command_Line/command_line_tutorial
+    title: (b) Command Line
+  - file: PS_Setup/02_Intro_Python/1_Basic_Numpy
+    title: (c) Basics of Numpy
+  - file: PS_Setup/02_Intro_Python/2_Basic_Plotting
+    title: (d) Basics of Plotting
+  - file: PS_Setup/03_Basic_Libraries/Basic_Libraries
+    title: (e) Some Python Libraries
+- caption: The Course
+  chapters:
+  - file: docs/Admin/Setup_for_Admin
+    title: Computational setup
 - caption: Reading Quizzes
   chapters:
   - file: Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology

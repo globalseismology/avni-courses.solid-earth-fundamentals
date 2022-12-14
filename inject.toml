@@ -39,7 +39,7 @@ resource_roles = "access_resources"
 
 [restricted.Field_Trip]
 files_regex = "Field_Trip_*/*.html"
-files_drop = ['Field_Trip_AMNH_worksheet.html'] # list of files to explicitly exclude after regex
+files_drop = ['Field_Trip_AMNH_worksheet.html','Field_Geophysics.html'] # list of files to explicitly exclude after regex
 files_add = [] # list of files to explicitly include after regex
 authenticator = "docs/Admin/js/authenticator_resources.js"
 resource_roles = "access_resources"
