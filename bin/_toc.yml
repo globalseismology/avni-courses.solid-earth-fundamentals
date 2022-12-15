@@ -1,0 +1,61 @@
+format: jb-book
+root: welcome
+parts:
+- caption: How To
+  chapters:
+  - file: How-To-Interact-With-This-Book
+    title: Interact With This Book
+  - file: Acknowledgements
+    title: Acknowledgements
+  - file: Restricted-Content
+    title: Restricted Content
+- caption: Field Trips
+  chapters:
+  - file: Field_Trip_1_AMNH/Field_Trip_AMNH_worksheet
+    title: (A) Central Park & American Museum of Natural History
+  - file: Field_Trip_2_Geophysics/Field_Geophysics
+    title: (B) Geophysical Field Survey
+  - file: Field_Trip_3_Local_Geology/GeoExchange_and_Field_Trip
+    title: (C) GeoExchange Site Visit & Geology Field Trip    
+- caption: Problem Sets
+  chapters:
+  - file: PS_Plate_Tectonics/Plate_Tectonics
+    title: (i) Plate Tectonics
+  - file: PS_Pressure_Plate_Motion_Quake_Magnitude/Pressure_Plate_Motion_Quake_Magnitude
+    title: (ii) Pressure, Plate Motion & Quake Magnitude
+  - file: PS_Minerals/Minerals
+    title: (iii) Minerals
+  - file: PS_Rocks/Rocks
+    title: (iv) Rocks
+  - file: PS_Relative_Absolute_Dating/Dating
+    title: (v) Relative & Absolute Dating
+  - file: PS_Seismology_Isostasy/Seismology_Isostasy
+    title: (vi) Seismology & Isostasy
+  - file: PS_Climate/Climate
+    title: (vii) Climate
+  - file: PS_Human_Interactions/Human_Interactions
+    title: (viii) Human Interactions
+- caption: Lectures
+  chapters:
+  - file: Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system
+    title: (1) Course Overview - Earth as a Natural System
+- caption: Tutorials
+  chapters:
+  - file: PS_Setup/00_Markdown/markdown_tutorial
+    title: (a) Markdown
+  - file: PS_Setup/01_Command_Line/command_line_tutorial
+    title: (b) Command Line
+  - file: PS_Setup/02_Intro_Python/1_Basic_Numpy
+    title: (c) Basics of Numpy
+  - file: PS_Setup/02_Intro_Python/2_Basic_Plotting
+    title: (d) Basics of Plotting
+  - file: PS_Setup/03_Basic_Libraries/Basic_Libraries
+    title: (e) Some Python Libraries
+- caption: The Course
+  chapters:
+  - file: docs/Admin/Setup_for_Admin
+    title: Computational setup
+- caption: Reading Quizzes
+  chapters:
+  - file: Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology
+    title: (a) Stellar Formation & Comparative Planetology

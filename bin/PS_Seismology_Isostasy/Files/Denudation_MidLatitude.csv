@@ -1,0 +1,21 @@
+﻿River Basin,Location,Mean relief h (m),Mean sine of slope,Mean denudation rate d (mm / 1000 yrs)
+Flint River,"Montezuma, GA",89,0.033,28
+Colorado River,"San Saba, TX",102,0.02,16
+River Thames,"London, England",159,0.022,16
+Delaware River,"Trenton, NJ",299,0.052,42
+Candadian River,"Amarillo, TX",353,0.071,52
+Little Colorado River,"Woodruff, AZ",392,0.056,31
+Juniata River,"Newport, PA",490,0.089,41
+Green River,"Green River, UT",644,0.113,82
+Escalante River,UT,842,0.13,135
+Dirty River,UT,912,0.106,177
+Bighorn River,"Thermopolis, WY",1004,0.138,109
+Colorado River,"Cisco, UT",1040,0.134,124
+Wind River,"Dubois, WY",1091,0.132,115
+Animas River,"Farmington, NM",1273,0.15,195
+Sarine,Switzerland,1395,0.287,210
+Rhine,"Lake Constance, Switzerland",1994,0.41,321
+Isére,"Grenoble, France",2046,,287
+Reuss,"Lake Lucerne, Switzerland",2320,0.345,300
+Kander,Switzerland,2428,0.401,430
+Rhone,"Lake Geneva, Switzerland",2869,0.361,418

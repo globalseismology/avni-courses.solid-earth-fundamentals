@@ -73,6 +73,8 @@ env/
 venv/
 ENV/
 
+# JupyterBook
+_build/
 
 #matlab and other data files
 *.mat
@@ -80,8 +82,11 @@ ENV/
 *.csph
 *.m~
 *.eps
+*.jpg
+*.jpeg
 *.png
 *.pdf
+*.csv
 *.grd
 
 # MacOS files

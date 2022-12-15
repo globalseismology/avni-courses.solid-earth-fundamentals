@@ -1,0 +1,52 @@
+# This is a TOML document that lists the configuration
+
+title = "TOML for Solid Earth Fundamentals"
+
+[owner]
+name = "Pritwiraj Moulik"
+
+[html]
+root_dir = '.'
+build_dir = '_build/html'
+js_dir = '_build/html/_static'
+keycloak_js = "docs/Admin/js/keycloak.js"
+keycloak_web_token = "docs/Admin/js/keycloak_web_js.json"
+body_tag_inject='onload=initKeycloak()'
+unlock_logout_inject = "docs/Admin/html/unlock_logout.html"
+
+[restricted]
+
+[restricted.Admin_Docs]
+files_regex = "docs/Admin/*.html" 
+files_drop = [] # list of files to explicitly exclude after regex
+files_add = [] # list of files to explicitly include after regex
+authenticator = "docs/Admin/js/authenticator_admin_docs.js"
+resource_roles = "access_admin_docs"
+
+[restricted.Lectures]
+files_regex = "Lectures/*.html"
+files_drop = ['Lecture1_2022_CourseOverview_Earth-as-a-natural-system.html'] # list of files to explicitly exclude after regex
+files_add = [] # list of files to explicitly include after regex
+authenticator = "docs/Admin/js/authenticator_lectures.js"
+resource_roles = "access_lectures"
+
+[restricted.PSETS]
+files_regex = "PS_*/*.html"
+files_drop = ['Plate_Tectonics.html','Pressure_Plate_Motion_Quake_Magnitude.html'] # list of files to explicitly exclude after regex
+files_add = [] # list of files to explicitly include after regex
+authenticator = "docs/Admin/js/authenticator_resources.js"
+resource_roles = "access_resources"
+
+[restricted.Field_Trip]
+files_regex = "Field_Trip_*/*.html"
+files_drop = ['Field_Trip_AMNH_worksheet.html','Field_Geophysics.html'] # list of files to explicitly exclude after regex
+files_add = [] # list of files to explicitly include after regex
+authenticator = "docs/Admin/js/authenticator_resources.js"
+resource_roles = "access_resources"
+
+[restricted.Quizzes]
+files_regex = "Reading_Quizzes*/*.html"
+files_drop = ['Quiz_Stellar_Formation_and_Comparative_Planetology.html'] # list of files to explicitly exclude after regex
+files_add = [] # list of files to explicitly include after regex
+authenticator = "docs/Admin/js/authenticator_resources.js"
+resource_roles = "access_resources"
