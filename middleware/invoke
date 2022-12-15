@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#
+# jupyter tool
+#
+# Some notes:
+# example.ipynb or a list of notebooks - Ask UCSD 
+# anaconda-7 base anaconda environment
+# addition al packages from docker - aspect-2.5.0-pre
+
+
+/usr/bin/invoke_app "$@" -t aspectnotebook \
+                         -C "start_jupyter -t -T @tool example.ipynb" \
+                         -u anaconda-7 \
+                         -u aspect-2.5.0-pre \
+                         -r none
