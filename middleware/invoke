@@ -9,8 +9,7 @@
 # addition al packages from docker - aspect-2.5.0-pre
 
 
-/usr/bin/invoke_app "$@" -t aspectnotebook \
-                         -C "start_jupyter -t -T @tool example.ipynb" \
+/usr/bin/invoke_app "$@" -t solidearth \
+                         -C "start_jupyter -t -T @tool welcome.ipynb" \
                          -u anaconda-7 \
-                         -u aspect-2.5.0-pre \
                          -r none
