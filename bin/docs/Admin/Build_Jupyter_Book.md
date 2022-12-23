@@ -75,28 +75,30 @@ After this replacement, the jupyter-book commands should create the book without
 
 ### Creating a slideshow from Powerpoint
 
-Export all slides to PNG format with dimensions 800X600 in Powerpoint. The following code should work to make an animation with a slider:
+Export all slides to PNG format with dimensions 800X600 in Powerpoint. Since I hide certain slides, it is best to export PNG from Adobe PDF using 56 (and sometimes 75) pixels/inch output. The following code should work to make an animation with a slider:
 
 ```python
 import os,re, IPython
 import plotly.express as px
-from skimage import io
+from skimage import io,color
 import numpy as np
 
 # Specify folder containing Slides*.png
-folder = 'Lecture1_2022_CourseOverview_Earth-as-a-natural-system'
+folder = 'Lecture1_2022_Course-Overview-Earth-as-a-natural-system'
 
 # create list of png files
 files = []
 for (roots,dirs,file) in os.walk(folder):
-    for f in file: 
-        if f.endswith('.png'): files.append(f)
+    if roots==folder:
+        for f in file: 
+            if f.endswith('.png') and f.startswith(folder): files.append(f)
 files.sort(key=lambda f: int(re.sub('\D','',f))) # sort by number of slide
 
 num_slides = len(files)
-for slide in range(0,num_slides):
-    image_file = folder+'/Slide'+str(slide+1)+'.png'
+for slide, file in enumerate(files):
+    image_file = folder+'/'+file
     img = io.imread(image_file)
+    if len(img.shape) == 2: img = color.gray2rgb(img) # convert b/w to rgb
     
     #slide_deck.shape (Nimg, y, x) for monochrome. (Nimg, y, x, 3) for RGB color.
     if slide == 0: slide_deck = np.zeros([num_slides,img.shape[0],img.shape[1],img.shape[2]])
@@ -104,11 +106,11 @@ for slide in range(0,num_slides):
     
 fig = px.imshow(slide_deck, animation_frame=0,binary_string=True, 
                 binary_format='png', binary_compression_level=3,
-                width=800, height=600)
+                width=img.shape[1], height=img.shape[0])
 fig.update_xaxes(showticklabels=False)
 fig.update_yaxes(showticklabels=False)
 fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 2000
-fig.show()    
+fig.show()
 ```
 
 ### Hide or remove cell contents
