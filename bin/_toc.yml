@@ -5,7 +5,7 @@ parts:
   chapters:
   - file: Overview-Logistics-Policies
     title: Course Overview, Logistics and Policies
-  - file: Syllabus_Readings
+  - file: docs/Admin/Syllabus_Readings
     title: Syllabus and Readings
 - caption: How To
   chapters:
