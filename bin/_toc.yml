@@ -58,11 +58,11 @@ parts:
   - file: Lectures/Lecture7_Minerals
     title: (7) Minerals
   - file: Lectures/Lecture8_TheRockCycleI-Intro-IgneousRocks
-    title: (8) The Rock Cycle I: Introduction to Igneous Rocks
+    title: (8) The Rock Cycle I - Introduction to Igneous Rocks
   - file: Lectures/Lecture9_TheRockCycleII-Composition-and-Phase-Diagrams
-    title: (9) The Rock Cycle II: Composition and Phase Diagrams
+    title: (9) The Rock Cycle II - Composition and Phase Diagrams
   - file: Lectures/Lecture10_TheRockCycleIII-Metamorphic-SedimentaryRocks
-    title: (10) The Rock Cycle III: Metamorphic and Sedimentary Rocks
+    title: (10) The Rock Cycle III - Metamorphic and Sedimentary Rocks
   - file: Lectures/Lecture11_Radiogenic-isotopes-and-absolute-dating
     title: (11) Radiogenic Isotopes and Absolute Dating
   - file: Lectures/Lecture12_Isostasy-and-Earth-Topography

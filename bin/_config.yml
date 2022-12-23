@@ -17,7 +17,8 @@ description: >-
 # Execution settings
 execute:
   execute_notebooks         : "cache"  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
-
+  timeout: 600                        # Execution timeout defines the maximum time (in seconds) each notebook cell is allowed to run for. If the execution takes longer an exception will be raised. The default is 30 seconds, so in cases of long-running cells you may want to specify a higher value. 
+  
 #######################################################################################
 # HTML-specific settings
 html:
