@@ -105,5 +105,15 @@ parts:
     title: (i) Stellar Formation & Comparative Planetology
   - file: Reading_Quizzes/Quiz_Plate_Tectonics
     title: (ii) Plate Tectonics
+  - file: Reading_Quizzes/Quiz_Minerals
+    title: (iii) Minerals
+  - file: Reading_Quizzes/Quiz_Rocks
+    title: (iv) Rocks
+  - file: Reading_Quizzes/Quiz_Dating
+    title: (v) Dating
   - file: Reading_Quizzes/Quiz_Rheology_and_Deformation
-    title: (iii) Rheology & Deformation
+    title: (vi) Rheology & Deformation
+  - file: Reading_Quizzes/Quiz_Seismology
+    title: (vii) Seismology   
+  - file: Reading_Quizzes/Quiz_Climate_Resources
+    title: (viii) Climate & Natural Resources
