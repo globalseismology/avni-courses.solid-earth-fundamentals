@@ -5,14 +5,14 @@ parts:
   chapters:
   - file: Overview-Logistics-Policies
     title: Course Overview, Logistics and Policies
+  - file: Acknowledgements
+    title: Acknowledgements
   - file: docs/Admin/Syllabus_Readings
     title: Syllabus and Readings
 - caption: How To
   chapters:
   - file: How-To-Interact-With-This-Book
     title: Interact With This Book
-  - file: Acknowledgements
-    title: Acknowledgements
   - file: Restricted-Content
     title: Restricted Content
 - caption: Field Trips
