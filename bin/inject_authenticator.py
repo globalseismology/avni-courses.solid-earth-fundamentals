@@ -65,8 +65,8 @@ def main():
         files_regex = restricted[rtyp]['files_regex']
         files = glob.glob(root_dir+'/'+build_dir+'/'+files_regex)
         # now drop certain files from restriction
-        for file in files:
-            for dropped in files_drop:
+        for dropped in files_drop:
+            for file in files:
                 if dropped in file: files.remove(file) #if string is present
         # now add certain files to restriction
         for file in all_files:
