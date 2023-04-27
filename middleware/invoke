@@ -12,4 +12,5 @@
 /usr/bin/invoke_app "$@" -t solidearth \
                          -C "start_jupyterlab -T @tool welcome.ipynb" \
                          -u anaconda-7 \
-                         -r none
+                         -e CONDA_PREFIX=/apps/share64/debian10/anaconda/anaconda-7/envs/fall2022 \
+			 -r none
