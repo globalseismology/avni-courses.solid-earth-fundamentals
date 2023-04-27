@@ -1,0 +1,119 @@
+format: jb-book
+root: welcome
+parts:
+- caption: The Course
+  chapters:
+  - file: Overview-Logistics-Policies
+    title: Course Overview, Logistics & Policies
+  - file: Acknowledgements
+    title: Acknowledgements
+  - file: docs/Admin/Syllabus_Readings
+    title: Syllabus & Readings
+- caption: How To
+  chapters:
+  - file: How-To-Interact-With-This-Book
+    title: Interact With This Book
+  - file: Restricted-Content
+    title: Restricted Content
+- caption: Field Trips
+  chapters:
+  - file: Field_Trip_AMNH/Field_Trip_AMNH_worksheet
+    title: (A) Central Park & American Museum of Natural History
+  - file: Field_Trip_Geophysics/Field_Geophysics
+    title: (B) Geophysical Field Survey
+  - file: Field_Trip_Local_Geology/GeoExchange_and_Field_Trip
+    title: (C) GeoExchange Site Visit & Geology Field Trip    
+- caption: Problem Sets
+  chapters:
+  - file: PS_Plate_Tectonics/Plate_Tectonics
+    title: (i) Plate Tectonics
+  - file: PS_Pressure_Plate_Motion_Quake_Magnitude/Pressure_Plate_Motion_Quake_Magnitude
+    title: (ii) Pressure, Plate Motion & Quake Magnitude
+  - file: PS_Minerals/Minerals
+    title: (iii) Minerals
+  - file: PS_Rocks/Rocks
+    title: (iv) Rocks
+  - file: PS_Relative_Absolute_Dating/Dating
+    title: (v) Relative & Absolute Dating
+  - file: PS_Seismology_Isostasy/Seismology_Isostasy
+    title: (vi) Seismology & Isostasy
+  - file: PS_Climate/Climate
+    title: (vii) Climate
+  - file: PS_Human_Interactions/Human_Interactions
+    title: (viii) Human Interactions
+- caption: Lectures
+  chapters:
+  - file: Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system
+    title: (1) Course Overview - Earth as a Natural System
+  - file: Lectures/Lecture2_2022_Stellar-formation-and-nucleosynthesis
+    title: (2) Stellar Formation & Nucleosynthesis
+  - file: Lectures/Lecture3_2022_Comparative_Planetology
+    title: (3) Comparative Planetology
+  - file: Lectures/Lecture4_2022_Plate-Tectonics-the-Evidence
+    title: (4) Plate Tectonics - The Evidence   
+  - file: Lectures/Lecture5_2022_Plate-Tectonics-the-Theory
+    title: (5) Plate Tectonics - The Theory   
+  - file: Lectures/Lecture6_2022_Phenomenology-of-Natural-Disasters
+    title: (6) Phenomenology of Natural Disasters  
+  - file: Lectures/Lecture7_Minerals
+    title: (7) Minerals
+  - file: Lectures/Lecture8_TheRockCycleI-Intro-IgneousRocks
+    title: (8) The Rock Cycle I - Introduction to Igneous Rocks
+  - file: Lectures/Lecture9_TheRockCycleII-Composition-and-Phase-Diagrams
+    title: (9) The Rock Cycle II - Composition & Phase Diagrams
+  - file: Lectures/Lecture10_TheRockCycleIII-Metamorphic-SedimentaryRocks
+    title: (10) The Rock Cycle III - Metamorphic & Sedimentary Rocks
+  - file: Lectures/Lecture11_Radiogenic-isotopes-and-absolute-dating
+    title: (11) Radiogenic Isotopes & Absolute Dating
+  - file: Lectures/Lecture12_Isostasy-and-Earth-Topography
+    title: (12) Isostasy & Topography
+  - file: Lectures/Lecture13_2022_Stress_Strain_and_Deformation
+    title: (13) Stress, Strain & Deformation
+  - file: Lectures/Lecture14_2022_Constitutive_Relations_and_Viscoelasticity
+    title: (14) Constitutive Relations & Viscoelasticity
+  - file: Lectures/Lecture15_2022_Brittle_Rheology_and_Fault_Mechanics
+    title: (15) Brittle Rheology & Fault Mechanics
+  - file: Lectures/Lecture16_2022_Flow_Laws_and_Deformation_Signatures
+    title: (16) Flow Laws & Deformation Signatures
+  - file: Lectures/Lecture17_2022_Basics_of_Seismology
+    title: (17) Basics of Seismology
+  - file: Lectures/Lecture18_2022_Seismology_and_Radial_Structure
+    title: (18) Seismology & Radial Structure
+  - file: Lectures/Lecture19_2022_Structure_of_the_Earth
+    title: (19) 3D Structure of the Earth
+  - file: Lectures/Lecture20_2022_Risks_and_Disasters
+    title: (20) Risks & Disasters
+  - file: Lectures/Lecture21_2022_Long_Term_Natural_Climate_System
+    title: (21) Long Term Natural Climate System
+  - file: Lectures/Lecture22_2022_Human_Interactions_Climate_and_Resources
+    title: (22) Human Interactions with Climate & Natural Resources
+- caption: Tutorials
+  chapters:
+  - file: PS_Setup/00_Markdown/markdown_tutorial
+    title: (a) Markdown
+  - file: PS_Setup/01_Command_Line/command_line_tutorial
+    title: (b) Command Line
+  - file: PS_Setup/02_Intro_Python/1_Basic_Numpy
+    title: (c) Basics of Numpy
+  - file: PS_Setup/02_Intro_Python/2_Basic_Plotting
+    title: (d) Basics of Plotting
+  - file: PS_Setup/03_Basic_Libraries/Basic_Libraries
+    title: (e) Some Python Libraries
+- caption: Reading Quizzes
+  chapters:
+  - file: Reading_Quizzes/Quiz_Stellar_Formation_and_Comparative_Planetology
+    title: (i) Stellar Formation & Comparative Planetology
+  - file: Reading_Quizzes/Quiz_Plate_Tectonics
+    title: (ii) Plate Tectonics
+  - file: Reading_Quizzes/Quiz_Minerals
+    title: (iii) Minerals
+  - file: Reading_Quizzes/Quiz_Rocks
+    title: (iv) Rocks
+  - file: Reading_Quizzes/Quiz_Dating
+    title: (v) Dating
+  - file: Reading_Quizzes/Quiz_Rheology_and_Deformation
+    title: (vi) Rheology & Deformation
+  - file: Reading_Quizzes/Quiz_Seismology
+    title: (vii) Seismology   
+  - file: Reading_Quizzes/Quiz_Climate_Resources
+    title: (viii) Climate & Natural Resources

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+ <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd" schemaVersion="1.1">
+  <Source>IRIS-DMC</Source>
+  <Sender>IRIS-DMC</Sender>
+  <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.52</Module>
+  <ModuleURI></ModuleURI>
+  <Created>2022-11-15T18:42:02.3462</Created>
+  <Network code="IU" startDate="1988-01-01T00:00:00.0000" restrictedStatus="open">
+   <Description>Global Seismograph Network - IRIS/USGS (GSN)</Description>
+   <Identifier type="DOI">10.7914/SN/IU
+   </Identifier>
+   <TotalNumberStations>128</TotalNumberStations>
+   <SelectedNumberStations>1</SelectedNumberStations>
+   <Station code="POHA" startDate="1999-11-13T00:00:00.0000" restrictedStatus="open" iris:alternateNetworkCodes="_ANSS-BB,_CARIBE-EWS,_FDSN-ALL,_GSN,_GSN-BROADBAND,_HAWAII,_REALTIME,.SPACIFIC,.UNRESTRICTED">
+    <Description>(GSN) IRIS/USGS (IU) and NIED</Description>
+    <Latitude>19.7573</Latitude>
+    <Longitude>-155.5326</Longitude>
+    <Elevation>1990.0</Elevation>
+    <Site>
+     <Name>Pohakuloa, Hawaii, USA</Name>
+    </Site>
+    <CreationDate>1999-11-13T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>184</TotalNumberChannels>
+    <SelectedNumberChannels>3</SelectedNumberChannels>
+    <Channel code="LH1" locationCode="00" startDate="2011-01-20T00:00:00.0000" endDate="2011-08-05T18:10:59.0000" restrictedStatus="open">
+     <Latitude>19.7573</Latitude>
+     <Longitude>-155.5326</Longitude>
+     <Elevation>1910.1</Elevation>
+     <Depth>80</Depth>
+     <Azimuth>138</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>GEOPHYSICAL</Type>
+     <SampleRate>1E00</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Geotech KS-54000 Borehole Seismometer</Description>
+     </Sensor>
+     <Response>
+     <InstrumentSensitivity>
+       <Value>3.30284E9</Value>
+       <Frequency>0.02</Frequency>
+       <InputUnits>
+         <Name>m/s</Name>
+         <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+     </InstrumentSensitivity>
+      <Stage number="1">
+      <PolesZeros>
+        <InputUnits>
+          <Name>m/s</Name>
+          <Description>Velocity in Meters Per Second</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+        <NormalizationFactor>86879.3</NormalizationFactor>
+        <NormalizationFrequency>0.02</NormalizationFrequency>
+        <Zero number="0">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Zero number="1">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Pole number="0">
+          <Real>-0.0048004</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="1">
+          <Real minusError="8.84211E-4" plusError="8.84211E-4">-0.0758541</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="2">
+          <Real>-22.7121</Real>
+          <Imaginary>-27.1065</Imaginary>
+        </Pole>
+        <Pole number="3">
+          <Real>-22.7121</Real>
+          <Imaginary>27.1065</Imaginary>
+        </Pole>
+        <Pole number="4">
+          <Real>-59.4313</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+      </PolesZeros>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1978.0</Value>
+        <Frequency>0.02</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="2">
+      <Coefficients>
+        <InputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1677720.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="3">
+      <Coefficients>
+        <InputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator number="0">1.21993E-16</Numerator>
+        <Numerator number="1">3.16192E-10</Numerator>
+        <Numerator number="2">-4.31465E-8</Numerator>
+        <Numerator number="3">-5.63556E-7</Numerator>
+        <Numerator number="4">-1.26701E-4</Numerator>
+        <Numerator number="5">0.00365814</Numerator>
+        <Numerator number="6">1.67531E-4</Numerator>
+        <Numerator number="7">-0.00540451</Numerator>
+        <Numerator number="8">0.0127861</Numerator>
+        <Numerator number="9">-0.0180357</Numerator>
+        <Numerator number="10">0.0147312</Numerator>
+        <Numerator number="11">0.00322694</Numerator>
+        <Numerator number="12">-0.0385969</Numerator>
+        <Numerator number="13">0.0888353</Numerator>
+        <Numerator number="14">-0.148243</Numerator>
+        <Numerator number="15">0.217766</Numerator>
+        <Numerator number="16">0.809914</Numerator>
+        <Numerator number="17">0.124596</Numerator>
+        <Numerator number="18">-0.123041</Numerator>
+        <Numerator number="19">0.0889975</Numerator>
+        <Numerator number="20">-0.0485016</Numerator>
+        <Numerator number="21">0.0142591</Numerator>
+        <Numerator number="22">0.00689639</Numerator>
+        <Numerator number="23">-0.0144434</Numerator>
+        <Numerator number="24">0.0124286</Numerator>
+        <Numerator number="25">-0.00656873</Numerator>
+        <Numerator number="26">0.00152204</Numerator>
+        <Numerator number="27">0.00314209</Numerator>
+        <Numerator number="28">3.65627E-5</Numerator>
+        <Numerator number="29">-2.15299E-6</Numerator>
+        <Numerator number="30">-2.59783E-7</Numerator>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>15.93</Delay>
+        <Correction>15.93</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+     </Response>
+    </Channel>
+    <Channel code="LH2" locationCode="00" startDate="2011-01-20T00:00:00.0000" endDate="2011-08-05T18:10:59.0000" restrictedStatus="open">
+     <Latitude>19.7573</Latitude>
+     <Longitude>-155.5326</Longitude>
+     <Elevation>1910.1</Elevation>
+     <Depth>80</Depth>
+     <Azimuth>228</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>GEOPHYSICAL</Type>
+     <SampleRate>1E00</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Geotech KS-54000 Borehole Seismometer</Description>
+     </Sensor>
+     <Response>
+     <InstrumentSensitivity>
+       <Value>3.27111E9</Value>
+       <Frequency>0.02</Frequency>
+       <InputUnits>
+         <Name>m/s</Name>
+         <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+     </InstrumentSensitivity>
+      <Stage number="1">
+      <PolesZeros>
+        <InputUnits>
+          <Name>m/s</Name>
+          <Description>Velocity in Meters Per Second</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+        <NormalizationFactor>86260.8</NormalizationFactor>
+        <NormalizationFrequency>0.02</NormalizationFrequency>
+        <Zero number="0">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Zero number="1">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Pole number="0">
+          <Real>-0.0048004</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="1">
+          <Real minusError="6.96824E-4" plusError="6.96824E-4">-0.0738118</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="2">
+          <Real>-22.7121</Real>
+          <Imaginary>-27.1065</Imaginary>
+        </Pole>
+        <Pole number="3">
+          <Real>-22.7121</Real>
+          <Imaginary>27.1065</Imaginary>
+        </Pole>
+        <Pole number="4">
+          <Real>-59.4313</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+      </PolesZeros>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1959.0</Value>
+        <Frequency>0.02</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="2">
+      <Coefficients>
+        <InputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1677720.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="3">
+      <Coefficients>
+        <InputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator number="0">1.21993E-16</Numerator>
+        <Numerator number="1">3.16192E-10</Numerator>
+        <Numerator number="2">-4.31465E-8</Numerator>
+        <Numerator number="3">-5.63556E-7</Numerator>
+        <Numerator number="4">-1.26701E-4</Numerator>
+        <Numerator number="5">0.00365814</Numerator>
+        <Numerator number="6">1.67531E-4</Numerator>
+        <Numerator number="7">-0.00540451</Numerator>
+        <Numerator number="8">0.0127861</Numerator>
+        <Numerator number="9">-0.0180357</Numerator>
+        <Numerator number="10">0.0147312</Numerator>
+        <Numerator number="11">0.00322694</Numerator>
+        <Numerator number="12">-0.0385969</Numerator>
+        <Numerator number="13">0.0888353</Numerator>
+        <Numerator number="14">-0.148243</Numerator>
+        <Numerator number="15">0.217766</Numerator>
+        <Numerator number="16">0.809914</Numerator>
+        <Numerator number="17">0.124596</Numerator>
+        <Numerator number="18">-0.123041</Numerator>
+        <Numerator number="19">0.0889975</Numerator>
+        <Numerator number="20">-0.0485016</Numerator>
+        <Numerator number="21">0.0142591</Numerator>
+        <Numerator number="22">0.00689639</Numerator>
+        <Numerator number="23">-0.0144434</Numerator>
+        <Numerator number="24">0.0124286</Numerator>
+        <Numerator number="25">-0.00656873</Numerator>
+        <Numerator number="26">0.00152204</Numerator>
+        <Numerator number="27">0.00314209</Numerator>
+        <Numerator number="28">3.65627E-5</Numerator>
+        <Numerator number="29">-2.15299E-6</Numerator>
+        <Numerator number="30">-2.59783E-7</Numerator>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>15.93</Delay>
+        <Correction>15.93</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+     </Response>
+    </Channel>
+    <Channel code="LHZ" locationCode="00" startDate="2011-01-20T00:00:00.0000" endDate="2011-08-05T18:10:59.0000" restrictedStatus="open">
+     <Latitude>19.7573</Latitude>
+     <Longitude>-155.5326</Longitude>
+     <Elevation>1910.1</Elevation>
+     <Depth>80</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>-90</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>GEOPHYSICAL</Type>
+     <SampleRate>1E00</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Geotech KS-54000 Borehole Seismometer</Description>
+     </Sensor>
+     <Response>
+     <InstrumentSensitivity>
+       <Value>3.17427E9</Value>
+       <Frequency>0.02</Frequency>
+       <InputUnits>
+         <Name>m/s</Name>
+         <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+     </InstrumentSensitivity>
+      <Stage number="1">
+      <PolesZeros>
+        <InputUnits>
+          <Name>m/s</Name>
+          <Description>Velocity in Meters Per Second</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+        <NormalizationFactor>86653.1</NormalizationFactor>
+        <NormalizationFrequency>0.02</NormalizationFrequency>
+        <Zero number="0">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Zero number="1">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Pole number="0">
+          <Real>-0.0048004</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="1">
+          <Real minusError="8.15143E-4" plusError="8.15143E-4">-0.0751117</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="2">
+          <Real>-22.7121</Real>
+          <Imaginary>-27.1065</Imaginary>
+        </Pole>
+        <Pole number="3">
+          <Real>-22.7121</Real>
+          <Imaginary>27.1065</Imaginary>
+        </Pole>
+        <Pole number="4">
+          <Real>-59.4313</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+      </PolesZeros>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1901.0</Value>
+        <Frequency>0.02</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="2">
+      <Coefficients>
+        <InputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1677720.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="3">
+      <Coefficients>
+        <InputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator number="0">1.21993E-16</Numerator>
+        <Numerator number="1">3.16192E-10</Numerator>
+        <Numerator number="2">-4.31465E-8</Numerator>
+        <Numerator number="3">-5.63556E-7</Numerator>
+        <Numerator number="4">-1.26701E-4</Numerator>
+        <Numerator number="5">0.00365814</Numerator>
+        <Numerator number="6">1.67531E-4</Numerator>
+        <Numerator number="7">-0.00540451</Numerator>
+        <Numerator number="8">0.0127861</Numerator>
+        <Numerator number="9">-0.0180357</Numerator>
+        <Numerator number="10">0.0147312</Numerator>
+        <Numerator number="11">0.00322694</Numerator>
+        <Numerator number="12">-0.0385969</Numerator>
+        <Numerator number="13">0.0888353</Numerator>
+        <Numerator number="14">-0.148243</Numerator>
+        <Numerator number="15">0.217766</Numerator>
+        <Numerator number="16">0.809914</Numerator>
+        <Numerator number="17">0.124596</Numerator>
+        <Numerator number="18">-0.123041</Numerator>
+        <Numerator number="19">0.0889975</Numerator>
+        <Numerator number="20">-0.0485016</Numerator>
+        <Numerator number="21">0.0142591</Numerator>
+        <Numerator number="22">0.00689639</Numerator>
+        <Numerator number="23">-0.0144434</Numerator>
+        <Numerator number="24">0.0124286</Numerator>
+        <Numerator number="25">-0.00656873</Numerator>
+        <Numerator number="26">0.00152204</Numerator>
+        <Numerator number="27">0.00314209</Numerator>
+        <Numerator number="28">3.65627E-5</Numerator>
+        <Numerator number="29">-2.15299E-6</Numerator>
+        <Numerator number="30">-2.59783E-7</Numerator>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>1.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>15.93</Delay>
+        <Correction>15.93</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+     </Response>
+    </Channel>
+   </Station>
+  </Network>
+ </FDSNStationXML>

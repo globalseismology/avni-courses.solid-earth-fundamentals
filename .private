@@ -1,0 +1,17 @@
+# Files in AVNI
+
+# All folders listed below are excluded from the
+# [public release](https://github.com/globalseismology/avni). The symbol * means all files
+# (but not subfolders) are to be excluded. All subfolders need to be specified explicitly.
+
+# It is prudent to first take all files in .public and start excluding here
+
+## Lectures
+bin/Lectures
+bin/Reading_Quizzes
+
+## Keys
+bin/PS_Rocks/Key
+bin/*/*Key.md
+bin/*/*Key.ipynb
+bin/Field_Trip_Geophysics/Files/Field_Geophysics_Survey_Oct_2022

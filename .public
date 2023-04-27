@@ -1,0 +1,23 @@
+# Files in AVNI
+
+# All folders listed below go with the
+# [public release](https://github.com/globalseismology/avni). The symbol * means all files
+# (but not subfolders) are to be included. All subfolders need to be specified explicitly.
+
+## Main folder - It is prudent to take all files here and simply exclude in .private
+bin
+
+## Common files in the main folder following CIG guidelines
+LICENSE
+README.md
+.gitignore
+.zenodo.json
+
+# Standard files
+CITATION.cff
+data
+doc
+examples
+middleware
+rappture
+src
