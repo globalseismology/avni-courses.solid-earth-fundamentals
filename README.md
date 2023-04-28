@@ -15,7 +15,7 @@ width="512">](https://portal.globalseismology.org/courses/solid-earth-fundamenta
 
 This website hosts the interactive book, *Fundamentals of Solid Earth Science*, which offers an introduction to a smorgasbord of introductory topics using the Python programming language. The content is specifically designed for people interested in geoscience education using some of the latest computational tools. This website is part of the software ecosystem called **A**nalysis and **V**isualization toolkit for pla**N**etary **I**nferences (or **AVNI**), which provides free web-based and backend code access to tools, techniques, models and data related to global solid Earth geosciences.
 
-These materials were originally created by Raj Moulik while teaching *Fundamentals of Solid Earth Science* (GEO203/CEE203), an undergraduate course at [Princeton University](https://princeton.edu). Checkout our overarching [pedagogy](#Summary-of-the-Pedagogy) of technology-assisted learning and programming in Geoscience education. If you find any of these resources useful, kindly [cite it](#Suggested-Citation) in your work.
+These materials were originally created by Raj Moulik while teaching *Fundamentals of Solid Earth Science* (GEO203/CEE203), an undergraduate course at [Princeton University](https://princeton.edu). Checkout our overarching [pedagogy](#summary-of-the-pedagogy) of technology-assisted learning and programming in Geoscience education. If you find any of these resources useful, kindly [cite it](#suggested-citation) in your work.
 
 ## Quick Links  
 - [Course Website](https://portal.globalseismology.org/courses/solid-earth-fundamentals)
@@ -25,7 +25,7 @@ These materials were originally created by Raj Moulik while teaching *Fundamenta
 - [Example: Problem Set on Plate Tectonics](bin/PS_Plate_Tectonics/Plate_Tectonics.ipynb)
 - [Overview, Logistics and Policies](bin/Overview-Logistics-Policies.ipynb)
 - [Syllabus and Required Readings](bin/docs/Admin/Syllabus_Readings.ipynb)
-- [Table of Contents](#Table-of-Contents)
+- [Table of Contents](#table-of-contents)
 
 <img src="bin/images/Field_Trip_Geophysics.png" alt="drawing" width="80%"/>
 
