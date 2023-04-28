@@ -20,33 +20,33 @@ unlock_logout_inject = "docs/Admin/html/unlock_logout.html"
 files_regex = "docs/Admin/*.html" 
 files_drop = ['Syllabus_Readings.html'] # list of files to explicitly exclude after regex
 files_add = [] # list of files to explicitly include after regex
-authenticator = "docs/Admin/js/authenticator_admin_docs.js"
+authenticator = "docs/Admin/js/authenticator_reader.js" #authenticator_admin_docs.js
 resource_roles = "access_admin_docs"
 
 [restricted.Lectures]
 files_regex = "Lectures/*.html"
 files_drop = ['Lecture1_2022_CourseOverview_Earth-as-a-natural-system.html'] # list of files to explicitly exclude after regex
 files_add = [] # list of files to explicitly include after regex
-authenticator = "docs/Admin/js/authenticator_lectures.js"
+authenticator = "docs/Admin/js/authenticator_reader.js" #authenticator_lectures.js
 resource_roles = "access_lectures"
 
-#[restricted.PSETS]
-#files_regex = "PS_*/*.html"
-#files_drop = ['Plate_Tectonics.html','Pressure_Plate_Motion_Quake_Magnitude.html'] # list of files to explicitly exclude after regex
-#files_add = [] # list of files to explicitly include after regex
-#authenticator = "docs/Admin/js/authenticator_resources.js"
-#resource_roles = "access_resources"
+[restricted.PSETS]
+files_regex = "PS_*/*.html"
+files_drop = ['Plate_Tectonics.html','Pressure_Plate_Motion_Quake_Magnitude.html'] # list of files to explicitly exclude after regex
+files_add = [] # list of files to explicitly include after regex
+authenticator = "docs/Admin/js/authenticator_reader.js"
+resource_roles = "access_resources"
 
 [restricted.Field_Trip]
 files_regex = "Field_Trip_*/*.html"
 files_drop = ['Field_Trip_AMNH_worksheet.html','GeoExchange_and_Field_Trip.html','Field_Geophysics.html'] # list of files to explicitly exclude after regex
 files_add = [] # list of files to explicitly include after regex
-authenticator = "docs/Admin/js/authenticator_resources.js"
+authenticator = "docs/Admin/js/authenticator_reader.js" #authenticator_resources.js
 resource_roles = "access_resources"
 
 [restricted.Quizzes]
 files_regex = "Reading_Quizzes*/*.html"
 files_drop = ['Quiz_Stellar_Formation_and_Comparative_Planetology.html'] # list of files to explicitly exclude after regex
 files_add = [] # list of files to explicitly include after regex
-authenticator = "docs/Admin/js/authenticator_resources.js"
+authenticator = "docs/Admin/js/authenticator_reader.js" #authenticator_resources.js
 resource_roles = "access_resources"
