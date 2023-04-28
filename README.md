@@ -65,7 +65,7 @@ Geoscience departments are responsible for educating young minds about vital iss
 ## Suggested Citation
 
 To cite specific version numbers of the course software, you can use the DOIs
-provided by [Zenodo](https://doi.org).
+provided by [Zenodo](https://doi.org/10.5281/zenodo.7876675).
 Additionally, we ask that when citing this course package, you cite
 both the course website and the canonical journal article reference 
         
