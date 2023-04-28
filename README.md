@@ -21,15 +21,15 @@ These materials were originally created by Raj Moulik while teaching *Fundamenta
 - [Course Website](https://portal.globalseismology.org/courses/solid-earth-fundamentals)
 - [Live Interactive Code on Hubzero](https://geodynamics.org/tools/solidearth)
 - [Example: Intro Lecture](https://portal.globalseismology.org/courses/solid-earth-fundamentals/current/Lectures/Lecture1_2022_CourseOverview_Earth-as-a-natural-system.html)
-- [Example: Geophysical Field Trip](Field_Trip_Geophysics/Field_Geophysics.ipynb)
-- [Example: Problem Set on Plate Tectonics](PS_Plate_Tectonics/Plate_Tectonics.ipynb)
-- [Overview, Logistics and Policies](Overview-Logistics-Policies.ipynb)
-- [Syllabus and Required Readings](docs/Admin/Syllabus_Readings.ipynb)
+- [Example: Geophysical Field Trip](bin/Field_Trip_Geophysics/Field_Geophysics.ipynb)
+- [Example: Problem Set on Plate Tectonics](bin/PS_Plate_Tectonics/Plate_Tectonics.ipynb)
+- [Overview, Logistics and Policies](bin/Overview-Logistics-Policies.ipynb)
+- [Syllabus and Required Readings](bin/docs/Admin/Syllabus_Readings.ipynb)
 - [Table of Contents](#Table-of-Contents)
 
-<img src="images/Field_Trip_Geophysics.png" alt="drawing" width="80%"/>
+<img src="bin/images/Field_Trip_Geophysics.png" alt="drawing" width="80%"/>
 
-*Students use their smartphones with hockey sticks and a wooden dump truck to find and characterize a magnetic dike (Oct, 2022). See Teachable Moments on Data and Signal Processing in [this notebook](Field_Trip_Geophysics/Field_Geophysics.ipynb).*
+*Students use their smartphones with hockey sticks and a wooden dump truck to find and characterize a magnetic dike (Oct, 2022). See Teachable Moments on Data and Signal Processing in [this notebook](bin/Field_Trip_Geophysics/Field_Geophysics.ipynb).*
 
 ## What is Solid Earth Science? 
 
@@ -37,16 +37,16 @@ This book provides a quantitative introduction to the geosciences, focusing on t
 
 **Learn to tackle the 'Big Questions'...**
 
-<img src="docs/Big_Questions.png" alt="drawing" width="40%"/> <img src="docs/Pedagogy.png" alt="drawing" width="40%"/>
+<img src="bin/docs/Big_Questions.png" alt="drawing" width="40%"/> <img src="bin/docs/Pedagogy.png" alt="drawing" width="40%"/>
 
 
 **Interactive Code <i class="fa fa-rocket" aria-hidden="true"></i>**  
 
 You will learn how to modify and leverage our Python code to solve real-world problems. The course **does not require prior programming experience**. By the end of it, you would have seen the power of learning this new language of modern computing!
 
-<img src="docs/Course_Toolkit.png" alt="drawing" width="40%"/>
+<img src="bin/docs/Course_Toolkit.png" alt="drawing" width="40%"/>
 
-This book's pages contain Python code that can be opened and run in a web browser without any prior installation or configuration. Click the launch button <i class="fa fa-rocket" aria-hidden="true"></i> in the top right corner of any page to open and play with the code. See {doc}`How To Interact With This Book <How-To-Interact-With-This-Book>` for more information.
+This book's pages contain Python code that can be opened and run in a web browser without any prior installation or configuration. Click the launch button <i class="fa fa-rocket" aria-hidden="true"></i> in the top right corner of any page to open and play with the code. See [How To Interact With This Book](bin/How-To-Interact-With-This-Book.ipynb) for more information.
 
 ## Summary of the Pedagogy
 
@@ -86,7 +86,7 @@ clarifications.
 
 ## Acknowledgements  
 
-A project like this one is a culmination of feedback and input from several excellent colleagues and organizations. Some of them are listed in the {doc}`Acknowledgements <Acknowledgements>`. 
+A project like this one is a culmination of feedback and input from several excellent colleagues and organizations. Some of them are listed in the [Acknowledgements](bin/Acknowledgements.ipynb). 
 
 ## Feedback 
 
