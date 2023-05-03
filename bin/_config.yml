@@ -70,11 +70,9 @@ latex:
   latex_documents:
     targetname: book.tex
 
-# In _config.yml
-sphinx:
-  config:
-    bibtex_reference_style: author_year
-    bibtex_bibfiles: "_bibliography/globalseismology.bib"
+bibtex_bibfiles:
+   - _bibliography/globalseismology.bib
+
 #######################################################################################
 # Parse and render settings
 parse:
