@@ -24,7 +24,7 @@ if [ -n "${SESSIONDIR}" ] ; then
 fi
 
 /usr/bin/invoke_app "$@" -t solidearth \
-                         -C "start_jupyterlab -T @tool \"${noteBookName}\"" \
+                         -C "start_jupyterlab -T @tool/bin \"${noteBookName}\"" \
                          -u anaconda-7 \
                          -e CONDA_PREFIX=/apps/share64/debian10/anaconda/anaconda-7/envs/fall2022 \
                          -r none \

@@ -22,8 +22,10 @@ else:
                if notebookPath.startswith(os.path.join(os.sep,'apps',toolName)):
                   notebookPath = notebookPath.strip()
                   if notebookPath.endswith('.ipynb'):
-                     notebookName = os.path.basename(notebookPath)
+                     notebookName = notebookPath[len(os.path.join(os.sep,'apps',toolName)):].lstrip(os.sep)
                      break
 
 if notebookName:
    print(notebookName)
+
+
