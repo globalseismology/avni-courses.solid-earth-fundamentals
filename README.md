@@ -63,15 +63,14 @@ Geoscience departments are responsible for educating young minds about vital iss
 - "Moulik is great and I really liked him. He did go through a lot of content in the semester, and he is an expert on a lot of it, and it was really cool to be able to hear about the seismic stuff that he actually researches."
 
 ## Suggested Citation
-
-To cite specific version numbers of the course software, you can use the DOIs
-provided by [Zenodo](https://doi.org/10.5281/zenodo.7876674).
-Additionally, we ask that when citing this course package, you cite
-both the course website and the canonical journal article reference 
+        
+If you find any of these resources useful, kindly cite this course package. 
+Please cite both the canonical journal article reference and 
+the course software archived on Zenodo.
         
 > Moulik, P. (2023), AVNI: Web-based Model Prototyping and Data Analysis Workflows for Planetary Inferences. *Geochemistry, Geophysics, Geosystems*, in prep.
 
-> Moulik, P. (2022), AVNI Course: Fundamentals of Solid Earth Science, [https://portal.globalseismology.org/courses/solid-earth-fundamentals](https://portal.globalseismology.org/courses/solid-earth-fundamentals)
+> Moulik, P. (2022), AVNI Course: Fundamentals of Solid Earth Science, [10.5281/zenodo.7876674](https://doi.org/10.5281/zenodo.7876674)
 
 ## License 
 
