@@ -12,6 +12,13 @@ exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoin
 description: >-
   A brief introduction to Python for scientific applications in the solid Earth sciences.
 
+#######################################################################################
+# Repository settings
+# Information about where the book exists on the web
+repository:
+  url                       : https://github.com/globalseismology/avni-courses.solid-earth-fundamentals  # Online location of your book
+  path_to_book              : bin  # Optional path to your book, relative to the repository root
+  branch                    : main  # Which branch of the repository should be used when creating links (optional)
 
 #######################################################################################
 # Execution settings
@@ -24,9 +31,9 @@ execute:
 # HTML-specific settings
 html:
   favicon                   : "images/logo/logo_avni_color.ico"  # A path to a favicon image
-  use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
-  use_repository_button     : false  # Whether to add a link to your repository button
-  use_issues_button         : false  # Whether to add an "open an issue" button
+  use_edit_page_button      : true  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
+  use_repository_button     : true  # Whether to add a link to your repository button
+  use_issues_button         : true  # Whether to add an "open an issue" button
   extra_navbar              : Powered by <a href="https://jupyter.org">Jupyter</a>  #Will be displayed underneath the left navbar.
   extra_footer              : |
     <div>
@@ -64,7 +71,7 @@ latex:
     targetname: book.tex
 
 bibtex_bibfiles:
-   - _bibliography/references.bib
+   - _bibliography/globalseismology.bib
 
 #######################################################################################
 # Parse and render settings
