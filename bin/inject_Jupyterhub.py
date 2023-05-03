@@ -2,12 +2,9 @@
 
 import glob
 import os.path
-import pdb
 import argparse #parsing arguments
 import numpy as np
-import toml
 import bs4
-import shutil
 import urllib.parse
 
 #########################  MAIN   ######################################################
@@ -53,7 +50,7 @@ def main():
             if res.startswith('PS_') or res.startswith('Field_Trip_'):
                 select['href'] = 'https://geodynamics.org/tools/solidearth/invoke?params='+urllib.parse.quote('file(notebook):/apps/solidearth/'+res,safe='')
             else:
-                select['href'] = 'https://geodynamics.org/tools/solidearth/invoke?params='+urllib.parse.quote('file(notebook):/apps/solidearth/welcome.ipynb'+res,safe='')                
+                select['href'] = 'https://geodynamics.org/tools/solidearth/invoke?params='+urllib.parse.quote('file(notebook):/apps/solidearth/welcome.ipynb',safe='')                
             
             # save the file again
             with open(file, "w") as outf: outf.write(str(soup))

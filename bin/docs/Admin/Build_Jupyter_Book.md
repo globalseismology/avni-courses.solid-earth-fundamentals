@@ -19,9 +19,11 @@ jupyter-book clean . --all
 jupyter-book build -W -n --keep-going .
 ```
 
-After building the notebooks, we need to insert javascript to the html file. This is done based on the list of restricted files specified in [inject.toml](../../inject.toml). Next run the following scripts to inject the relevant Keycloak configuration to the html files and add the .js files to *_static* folder. We will push files to the public website on dwar over scp.
+
+After building the notebooks, we need to insert javascript to the html file. This is done based on the list of restricted files specified in [inject.toml](../../inject.toml). Next change the JupyterHub links to invoke correctly on Hubzero i.e. all pages except PS and Field Trip are linked to the welcome notebook. Next run the following scripts to inject the relevant Keycloak configuration to the html files and add the .js files to *_static* folder. We will push files to the public website on dwar over scp.
 
 ```
+./inject_Jupyterhub.py
 ./inject_authenticator.py
 rsync -rv _build/html/* pm5113@dwar.princeton.edu:~/web/courses/solid-earth-fundamentals/fall2022/
 ```
