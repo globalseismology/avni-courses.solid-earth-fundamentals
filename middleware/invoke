@@ -8,9 +8,24 @@
 # anaconda-7 base anaconda environment
 # addition al packages from docker - aspect-2.5.0-pre
 
+scriptDir=$(readlink -f $(dirname $0)) 
+
+noteBookName=welcome.ipynb
+if [ -n "${SESSIONDIR}" ] ; then
+   if [ -d ${SESSIONDIR} ] ; then
+      oldCWD=${PWD}
+      cd ${SESSIONDIR}
+
+      noteBookName=$(python ${scriptDir}/setupNotebook.py)
+#     echo "noteBookName = ${noteBookName}"
+
+      cd ${oldCWD}
+   fi
+fi
 
 /usr/bin/invoke_app "$@" -t solidearth \
-                         -C "start_jupyterlab -T @tool welcome.ipynb" \
+                         -C "start_jupyterlab -T @tool \"${noteBookName}\"" \
                          -u anaconda-7 \
                          -e CONDA_PREFIX=/apps/share64/debian10/anaconda/anaconda-7/envs/fall2022 \
-			 -r none
+                         -r none \
+                         -w headless
