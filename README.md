@@ -70,7 +70,7 @@ the course software archived on Zenodo.
         
 > Moulik, P. (2023), AVNI: Web-based Model Prototyping and Data Analysis Workflows for Planetary Inferences. *Geochemistry, Geophysics, Geosystems*, in prep.
 
-> Moulik, P. (2022), AVNI Course: Fundamentals of Solid Earth Science, [10.5281/zenodo.7876674](https://doi.org/10.5281/zenodo.7876674)
+> Moulik, P. (2022), AVNI Course: Fundamentals of Solid Earth Science, [https://doi.org/10.5281/zenodo.7876674](https://doi.org/10.5281/zenodo.7876674)
 
 ## License 
 
